@@ -5,3 +5,9 @@ add something new
 Test changes in branch
 
 Add new line to the test branch
+
+This is is a test of branch
+tesat
+teast
+
+This is a test of branch
