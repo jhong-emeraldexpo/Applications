@@ -8,6 +8,9 @@ Add new line to the test branch
 
 This is is a test of branch
 tesat
-teast
+teast  changed by feature1 on 8/20
 
 This is a test of branch
+
+Add more to feature1.
+
