@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contact Role by Show</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contact Roles by Show</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Contact Roles by Show --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Roles --></label>
+        <name>ContactRoles__c</name>
+        <picklistValues>
+            <masterLabel>A2Z Invoice Contact</masterLabel>
+            <translation><!-- A2Z Invoice Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advertising contact</masterLabel>
+            <translation><!-- Advertising contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency</masterLabel>
+            <translation><!-- Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Contact</masterLabel>
+            <translation><!-- Contract Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Contact (Secondary)</masterLabel>
+            <translation><!-- Contract Contact (Secondary) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decorator</masterLabel>
+            <translation><!-- Decorator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Directory contact</masterLabel>
+            <translation><!-- Directory contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor Representative</masterLabel>
+            <translation><!-- Distributor Representative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exhibitor kit recipient</masterLabel>
+            <translation><!-- Exhibitor kit recipient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Contact</masterLabel>
+            <translation><!-- Marketing Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only contact</masterLabel>
+            <translation><!-- Only contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsite contact</masterLabel>
+            <translation><!-- Onsite contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Contact</masterLabel>
+            <translation><!-- Sales Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship contact</masterLabel>
+            <translation><!-- Sponsorship contact --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Contact Roles by Show --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Do Not Call --></label>
+        <name>DoNotCall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>Event__c</name>
+        <relationshipLabel><!-- Contact Roles by Show --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Marketing Email Opt Out --></label>
+        <name>HasOptedOutOfEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Contact Roles by Show --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Brand --></label>
+        <name>Show_Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show --></label>
+        <name>Show__c</name>
+        <relationshipLabel><!-- Contact Roles by Show --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Show Account Contact Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Show Account Contact Layout-Lightning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

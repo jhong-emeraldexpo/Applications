@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>No Contact Attempted</fullName>
+        <default>false</default>
+        <label>No Contact Attempted</label>
+    </customValue>
+    <customValue>
+        <fullName>Contact Attempted/Not Made</fullName>
+        <default>false</default>
+        <label>Contact Attempted/Not Made</label>
+    </customValue>
+    <customValue>
+        <fullName>Contact Made/Discovery</fullName>
+        <default>false</default>
+        <label>Contact Made/Discovery</label>
+    </customValue>
+    <customValue>
+        <fullName>Contact Made/Early Discussion</fullName>
+        <default>false</default>
+        <label>Contact Made/Early Discussion</label>
+    </customValue>
+    <customValue>
+        <fullName>Interested/Oppty Seriously Discussed</fullName>
+        <default>false</default>
+        <label>Interested/Oppty Seriously Discussed</label>
+    </customValue>
+    <customValue>
+        <fullName>High Interest/Specific Details Reviewed</fullName>
+        <default>false</default>
+        <label>High Interest/Specific Details Reviewed</label>
+    </customValue>
+    <customValue>
+        <fullName>Verbal Commitment/Contract Sent/Pending</fullName>
+        <default>false</default>
+        <label>Verbal Commitment/Contract Sent/Pending</label>
+    </customValue>
+    <customValue>
+        <fullName>Sold</fullName>
+        <default>false</default>
+        <label>Sold</label>
+    </customValue>
+    <customValue>
+        <fullName>Lost</fullName>
+        <default>false</default>
+        <label>Lost</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+    </customValue>
+    <description>List of Stages for Opportunity</description>
+    <masterLabel>Opportunity Stage</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

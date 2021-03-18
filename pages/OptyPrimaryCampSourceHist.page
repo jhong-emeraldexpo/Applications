@@ -1,0 +1,5 @@
+<apex:page standardController="Opportunity">
+    <p>
+       <a href="/00Oo0000004f6Mu?pc0=Opportunity.Id&pn0=eq&pv0={!Left(Opportunity.Id,15)}" target="_blank"> Historic Campaigns </a>&nbsp;&nbsp;-&nbsp; for the opportunity: {!opportunity.Name}
+     </p>  
+</apex:page>

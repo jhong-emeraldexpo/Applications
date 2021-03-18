@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AE Sales Goals</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AE Sales Goals</value>
+    </caseValues>
+    <fields>
+        <label><!-- AE Name --></label>
+        <name>AE_Name__c</name>
+        <relationshipLabel><!-- AE Sales Goals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>Event__c</name>
+        <relationshipLabel><!-- AE Sales Goals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SubExpo --></label>
+        <name>SubExpoSubExpo__c</name>
+        <relationshipLabel><!-- AE Sales Goals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Target Booth Revenue --></label>
+        <name>Target_Booth_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Digital Revenue --></label>
+        <name>Target_Digital_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target List Rental Revenue --></label>
+        <name>Target_List_Rental_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target NSF --></label>
+        <name>Target_NSF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Other Revenue --></label>
+        <name>Target_Other_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Print Revenue --></label>
+        <name>Target_Print_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Sponsorship Revenue --></label>
+        <name>Target_Sponsorship_Revenue__c</name>
+    </fields>
+    <layouts>
+        <layout>AE Sales Goals Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>AE Sales Goals Layout-Lightning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NY_NOW</letterhead>
+    <name>Designer Maker Received Hardcopy App</name>
+    <style>freeForm</style>
+    <subject>NY NOW_Supporting Materials Received - {!Account.Name}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+We have received the requested materials to support your application for Handmade® Designer Maker.
+
+The selection committee will be meeting this spring to review applications for the summer 2019 market and we will be in touch via email shortly after they&apos;ve reviewed your materials to discuss their collective feedback.
+
+If you have any questions please feel free to contact us.
+
+Sincerely,
+
+Ashley Ciofrone | Sales Manager | 914-421-3310</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

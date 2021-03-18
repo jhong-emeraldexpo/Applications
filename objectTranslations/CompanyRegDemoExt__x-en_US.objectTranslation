@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Company Reg Demo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Company Reg Demo</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Company Reg Demo --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CompanyID --></label>
+        <name>CompanyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CompanyRegDemoAnswer --></label>
+        <name>CompanyRegDemoAnswer__c</name>
+    </fields>
+    <fields>
+        <label><!-- CompanyRegDemoID --></label>
+        <name>CompanyRegDemoID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CompanyRegDemoQuestion --></label>
+        <name>CompanyRegDemoQuestion__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatedDate --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExternalID --></label>
+        <name>ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldDetailID --></label>
+        <name>FieldDetailID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldPickID --></label>
+        <name>FieldPickID__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key --></label>
+        <name>Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label --></label>
+        <name>Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastModifiedDate --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDCAccountDetailsByShowID --></label>
+        <name>SFDCAccountDetailsByShowID__c</name>
+        <relationshipLabel><!-- Company Reg Demo --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Show --></label>
+        <name>Show__c</name>
+        <relationshipLabel><!-- Company Reg Demo (Show) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SourceKey --></label>
+        <name>SourceKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <layouts>
+        <layout>eventXL_CompanyRegDemoes Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

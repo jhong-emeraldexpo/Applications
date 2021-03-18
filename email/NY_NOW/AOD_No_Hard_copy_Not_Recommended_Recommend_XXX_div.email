@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!Account.Name}<br><br>Dear&nbsp;</font><font face="arial">{!Contact.FirstName},</font>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial">Thank you for your recent submission to Accent on Design® at NY NOW®.&nbsp;</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div><div><font face="arial">We made several attempts to contact you reminding you that the selection committee requires supporting materials to be sent via mail to properly review your application.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Although we did not receive the supporting information we reviewed the details of your electronic application and determined that your products would be best suited positioned within the XXXXX section.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">If you would like to explore opportunities to exhibit in XXXX please contact XXXX (copied on this email).</font></div><div><font face="arial"><br></font></div><div><font face="arial">We wish you the utmost success and look forward to seeing you in at NY NOW this February.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Kind regards,</font></div><div><br></div><div><div>Jaime Sikorjak</div><div>Sales Manager</div><div>914-421-3289</div><div>Jaime.sikorjak@nynow.com&nbsp;</div></div><div><font face="arial"><br></font></div><div><font face="arial">Ashley&nbsp;</font><span style="font-size: 12pt;">Ciofrone</span></div><div><font face="arial">Sales Representative</font></div><div><font face="arial">914-421-3310</font></div><div><font face="arial">ashley.</font><font face="arial">c</font>iofrone<font face="arial">@nynow.com</font></div><div><font face="arial"><br></font></div></div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

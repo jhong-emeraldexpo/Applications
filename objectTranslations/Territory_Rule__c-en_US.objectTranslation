@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Territory Rule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Territory Rules</value>
+    </caseValues>
+    <fields>
+        <label><!-- A2Z_OperatorID --></label>
+        <name>A2Z_OperatorID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActiveUser --></label>
+        <name>IsActiveUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key 1 --></label>
+        <name>Key1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key 2 --></label>
+        <name>Key2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>OpportunityOwner__c</name>
+        <relationshipLabel><!-- Territory Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rule Set --></label>
+        <name>Rule_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Rule ID --></label>
+        <name>Territory_Rule_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Rule Type --></label>
+        <name>Territory_Rule_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account Name</masterLabel>
+            <translation><!-- Account Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Name &amp; Billing State</masterLabel>
+            <translation><!-- Account Name &amp; Billing State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing State</masterLabel>
+            <translation><!-- Billing State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show</masterLabel>
+            <translation><!-- Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SubShow</masterLabel>
+            <translation><!-- SubShow --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Territory Rule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Territory Rule Layout-Lightning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

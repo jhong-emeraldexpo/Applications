@@ -1,0 +1,3943 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>EE_Opportunity_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>EE_Opportunity_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>EE_Record_Type__c</fields>
+        <fields>StageName</fields>
+        <fields>CloseDate</fields>
+        <fields>Amount</fields>
+        <fields>Forecast_NSF__c</fields>
+        <label>EE_Opportunity_Compact</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>EE_compactLayout</fullName>
+        <fields>Name</fields>
+        <fields>Event_Name__c</fields>
+        <fields>CloseDate</fields>
+        <fields>Amount</fields>
+        <fields>Score__c</fields>
+        <fields>OwnerId</fields>
+        <label>EE_compactLayout</label>
+    </compactLayouts>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fields>
+        <fullName>A2Z_CoID__c</fullName>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE(Account.A2Z_CoID__c, "NONE")</formula>
+        <label>A2Z CoID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>A2Z_Integration_Status__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>A2Z Integration Status</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>A2Z_Password__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.A2Z_Password__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>A2Z Password</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountExternalID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.A2Z_CoID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>AccountExternalID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AccountNameFirstChar__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+    BEGINS(upper(Account.Name), "THE "),
+    Upper(RIGHT(LEFT(Account.Name,5),1)),
+    Upper(LEFT(Account.Name,1))
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>AccountNameFirstChar</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Actual_Close_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual Close Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Additional_Marketing_Services__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Marketing Services</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Amount</fullName>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Approved_For_A2Z__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Approved_For_A2Z__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reviewed by Billing Coordinator?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Assigned_to_Markt_Ops__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Assigned to Markt Ops</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AutoCloseDate__c</fullName>
+        <description>Time stamp entered by Informatica when it auto-closes the opportunity</description>
+        <externalId>false</externalId>
+        <label>AutoCloseDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>BillingCountryandStateCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Account.BillingCountryCode)+'-'+ TEXT(Account.BillingStateCode)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>BillingCountryandStateCode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Country_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE( NULLVALUE(TEXT(Account.BillingCountryCode),'NULL'),'NULL')</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Billing Country Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_State_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE( NULLVALUE(TEXT(Account.BillingStateCode),'NULL'),'NULL')</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Billing State Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booked_NSF__c</fullName>
+        <description>Total NSF from a2z</description>
+        <externalId>false</externalId>
+        <label>Booked NSF</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booked_Revenue__c</fullName>
+        <description>Total Order Amount from a2z</description>
+        <externalId>false</externalId>
+        <label>Booked Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booth_Application_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Booth Application Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Booth_Image__c</fullName>
+        <externalId>false</externalId>
+        <label>Booth Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Booth_Requests__c</fullName>
+        <externalId>false</externalId>
+        <label>Booth Location &amp; Special Requests</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Brand__c</fullName>
+        <externalId>false</externalId>
+        <formula>Event__r.Show__r.Brand__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Brand</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Call_for_Products_Submission__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Call for Products Submission</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Campaign.Event__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Event__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>Campaign.Product__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Product__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_Short_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>Campaign.Short_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Campaign Short Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Reasons__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation Reasons</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Attendees Not a Match to Target Market</fullName>
+                    <default>false</default>
+                    <label>Attendees Not a Match to Target Market</label>
+                </value>
+                <value>
+                    <fullName>Bad Experience with Emerald</fullName>
+                    <default>false</default>
+                    <label>Bad Experience with Emerald</label>
+                </value>
+                <value>
+                    <fullName>Bad Experience with Vendor(GES/Freeman)</fullName>
+                    <default>false</default>
+                    <label>Bad Experience with Vendor(GES/Freeman)</label>
+                </value>
+                <value>
+                    <fullName>Conflict with other show</fullName>
+                    <default>false</default>
+                    <label>Conflict with other show</label>
+                </value>
+                <value>
+                    <fullName>Cost/Budget</fullName>
+                    <default>false</default>
+                    <label>Cost/Budget</label>
+                </value>
+                <value>
+                    <fullName>Don't Exhibit at Trade Shows</fullName>
+                    <default>false</default>
+                    <label>Don't Exhibit at Trade Shows</label>
+                </value>
+                <value>
+                    <fullName>Exhibit at Other Show(s) Only</fullName>
+                    <default>false</default>
+                    <label>Exhibit at Other Show(s) Only</label>
+                </value>
+                <value>
+                    <fullName>Financial/payment problem</fullName>
+                    <default>false</default>
+                    <label>Financial/payment problem</label>
+                </value>
+                <value>
+                    <fullName>Not Enough Buyers/Leads</fullName>
+                    <default>false</default>
+                    <label>Not Enough Buyers/Leads</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Product not available</fullName>
+                    <default>false</default>
+                    <label>Product not available</label>
+                </value>
+                <value>
+                    <fullName>Timing Conflict</fullName>
+                    <default>false</default>
+                    <label>Timing Conflict</label>
+                </value>
+                <value>
+                    <fullName>Undesirable Booth Location</fullName>
+                    <default>false</default>
+                    <label>Undesirable Booth Location</label>
+                </value>
+                <value>
+                    <fullName>Undesirable Location(City/Venue)</fullName>
+                    <default>false</default>
+                    <label>Undesirable Location(City/Venue)</label>
+                </value>
+                <value>
+                    <fullName>Visa denied</fullName>
+                    <default>false</default>
+                    <label>Visa denied</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CloseDate</fullName>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContractId</fullName>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ConvertedAccountId__c</fullName>
+        <externalId>false</externalId>
+        <label>ConvertedAccountId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Create_Task__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Create Task when loading opportunity using data loader.</description>
+        <externalId>false</externalId>
+        <label>Create Task</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Current_Exhibitor_Classification__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Exhibitor Classification</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Exhibitor_Retention__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Exhibitor Retention</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DM_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>DM_ID</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Days_to_Forecast_Close_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>CloseDate - Today()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days to Forecast Close Date</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_to_close__c</fullName>
+        <externalId>false</externalId>
+        <formula>/*CloseDate - Datevalue(CreatedDate)
+IF((ISPICKVAL( StageName, "Lost") || ISPICKVAL(StageName, "Sold")),(CloseDate - DateVALUE(CreatedDate)    ),Null)
+*/
+Actual_Close_Date__c - DateVALUE(CreatedDate)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days to close</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>EE_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TEXT(Product__c)= $CustomMetadata.Product__mdt.VIP_Registration.MasterLabel, $CustomMetadata.EE_Record_Type__mdt.Attendee.DeveloperName,  
+IF( TEXT(Product__c)=  $CustomMetadata.Product__mdt.Conference_Registration.MasterLabel, $CustomMetadata.EE_Record_Type__mdt.Attendee.DeveloperName,  
+IF(TEXT(Product__c)=$CustomMetadata.Product__mdt.Speaker.MasterLabel, $CustomMetadata.EE_Record_Type__mdt.Attendee.DeveloperName, $CustomMetadata.EE_Record_Type__mdt.Exhibitor.DeveloperName
+)
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>EE Record Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EmailSubject_NewOwner__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(pi_ee_score__c &gt; 0, "NEW Pardot Opportunity assigned to you!", "Opportunity assigned to you!")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>EmailSubject_NewOwner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to track subscriptions for Elastic Digital Market</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Event_Booth_Last_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Event__r.Booth_Last_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Booth Last Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Event_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>Event__r.Event_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Event__r.Name</formula>
+        <label>Event Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Non_Booth_Last_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Event__r.Non_Booth_Last_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Non-Booth Last Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Event_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text(Event__r.Event_Year__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Event</label>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Exhibitor_Console_Communication__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Exhibitor Console Communication</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>External_Account_ID_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE(Account.A2Z_CoID__c, "NONE")</formula>
+        <label>A2Z Company ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Forecast_NSF__c</fullName>
+        <externalId>false</externalId>
+        <label>Forecast NSF</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Forecast_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Forecast Revenue</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Forecasted_Products__c</fullName>
+        <description>Number of Forecast products - Sum of Quantity Field from Product</description>
+        <externalId>false</externalId>
+        <label># of Forecasted Products</label>
+        <summarizedField>OpportunityLineItem.Quantity</summarizedField>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Formatted_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(MONTH(DATEVALUE( CreatedDate )))+"/" +TEXT(DAY(DATEVALUE(CreatedDate)))+"/" +TEXT(YEAR(DATEVALUE(CreatedDate)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Formatted Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Goldmine_Created_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Goldmine Created Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Goldmine_Objection_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Goldmine Objection Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GuideIsClicked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>GuideIsClicked</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IQ_Source_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>IQ Source Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IgnoreValidation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Ignore Validation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IqScore</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsOwner__c</fullName>
+        <externalId>false</externalId>
+        <formula>OwnerId = $User.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IsOwner</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Jury_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Jury Comments</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Jury_Recommended_Sections__c</fullName>
+        <externalId>false</externalId>
+        <label>Recommended Sections</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accent on Design®</fullName>
+                    <default>false</default>
+                    <label>Accent on Design®</label>
+                </value>
+                <value>
+                    <fullName>Artisan Resource</fullName>
+                    <default>false</default>
+                    <label>Artisan Resource</label>
+                </value>
+                <value>
+                    <fullName>Baby + Child</fullName>
+                    <default>false</default>
+                    <label>Baby + Child</label>
+                </value>
+                <value>
+                    <fullName>Distinctive Living</fullName>
+                    <default>false</default>
+                    <label>Distinctive Living</label>
+                </value>
+                <value>
+                    <fullName>Emerging Maker Platform</fullName>
+                    <default>false</default>
+                    <label>Emerging Maker Platform</label>
+                </value>
+                <value>
+                    <fullName>Gift</fullName>
+                    <default>false</default>
+                    <label>Gift</label>
+                </value>
+                <value>
+                    <fullName>Handmade® Designer Maker</fullName>
+                    <default>false</default>
+                    <label>Handmade® Designer Maker</label>
+                </value>
+                <value>
+                    <fullName>Handmade® Global Design</fullName>
+                    <default>false</default>
+                    <label>Handmade® Global Design</label>
+                </value>
+                <value>
+                    <fullName>Home Furnishings + Textiles</fullName>
+                    <default>false</default>
+                    <label>Home Furnishings + Textiles</label>
+                </value>
+                <value>
+                    <fullName>New Exhibitor Pavilion</fullName>
+                    <default>false</default>
+                    <label>New Exhibitor Pavilion</label>
+                </value>
+                <value>
+                    <fullName>Personal Accessories</fullName>
+                    <default>false</default>
+                    <label>Personal Accessories</label>
+                </value>
+                <value>
+                    <fullName>Personal Care + Wellness</fullName>
+                    <default>false</default>
+                    <label>Personal Care + Wellness</label>
+                </value>
+                <value>
+                    <fullName>Tabletop + Gourmet Housewares</fullName>
+                    <default>false</default>
+                    <label>Tabletop + Gourmet Housewares</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Jury_Result__c</fullName>
+        <externalId>false</externalId>
+        <label>Jury Result</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AOD - Not Recommended</fullName>
+                    <default>false</default>
+                    <label>AOD - Not Recommended</label>
+                </value>
+                <value>
+                    <fullName>AOD - Pre-juried Not Recommended</fullName>
+                    <default>false</default>
+                    <label>AOD - Pre-juried Not Recommended</label>
+                </value>
+                <value>
+                    <fullName>AOD - Recommended</fullName>
+                    <default>false</default>
+                    <label>AOD - Recommended</label>
+                </value>
+                <value>
+                    <fullName>DMP - Not Recommended</fullName>
+                    <default>false</default>
+                    <label>DMP - Not Recommended</label>
+                </value>
+                <value>
+                    <fullName>DMP - Recommended</fullName>
+                    <default>false</default>
+                    <label>DMP - Recommended</label>
+                </value>
+                <value>
+                    <fullName>HDM - Not Recommended</fullName>
+                    <default>false</default>
+                    <label>HDM - Not Recommended</label>
+                </value>
+                <value>
+                    <fullName>HDM - Pre-juried Not Recommended</fullName>
+                    <default>false</default>
+                    <label>HDM - Pre-juried Not Recommended</label>
+                </value>
+                <value>
+                    <fullName>HDM - Recommended</fullName>
+                    <default>false</default>
+                    <label>HDM - Recommended</label>
+                </value>
+                <value>
+                    <fullName>HGD - Not Recommended</fullName>
+                    <default>false</default>
+                    <label>HGD - Not Recommended</label>
+                </value>
+                <value>
+                    <fullName>HGD - Pre-juried Not Recommended</fullName>
+                    <default>false</default>
+                    <label>HGD - Pre-juried Not Recommended</label>
+                </value>
+                <value>
+                    <fullName>HGD - Recommended</fullName>
+                    <default>false</default>
+                    <label>HGD - Recommended</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Jury_Score_AonD__c</fullName>
+        <externalId>false</externalId>
+        <label>Jury Score (Accent on Design)</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Jury_Score_Handmade__c</fullName>
+        <externalId>false</externalId>
+        <label>Jury Score (Handmade)</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LastOpptyChangedDays__c</fullName>
+        <externalId>false</externalId>
+        <formula>(now()-LastModifiedDate)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>LastOpptyChangedDays</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loss_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Loss Details</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <externalId>false</externalId>
+        <formula>Event__r.Show__r.Market__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NSF_Weighted__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Probability  &gt;= 0.5, Forecast_NSF__c  *   Probability, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>NSF Weighted</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NSF_Weighted_test__c</fullName>
+        <externalId>false</externalId>
+        <label>NSF Weighted test</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Named_Account_Executive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Named Account Executive</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>New_Opportunity__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(LastModifiedDate=Owner_Changed__c,0,1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>New Opportunity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NextStep</fullName>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Objection_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Objection Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Attendee Prospect</fullName>
+                    <default>false</default>
+                    <label>Attendee Prospect</label>
+                </value>
+                <value>
+                    <fullName>Attendees Not a Match to Target Market</fullName>
+                    <default>false</default>
+                    <label>Attendees Not a Match to Target Market</label>
+                </value>
+                <value>
+                    <fullName>Bad Experience with Emerald</fullName>
+                    <default>false</default>
+                    <label>Bad Experience with Emerald</label>
+                </value>
+                <value>
+                    <fullName>Bad experience with General Show Contractor</fullName>
+                    <default>false</default>
+                    <label>Bad experience with General Show Contractor</label>
+                </value>
+                <value>
+                    <fullName>Co-Exhibitor</fullName>
+                    <default>false</default>
+                    <label>Co-Exhibitor</label>
+                </value>
+                <value>
+                    <fullName>Conflict - Business</fullName>
+                    <default>false</default>
+                    <label>Conflict - Business</label>
+                </value>
+                <value>
+                    <fullName>Conflict - Personal</fullName>
+                    <default>false</default>
+                    <label>Conflict - Personal</label>
+                </value>
+                <value>
+                    <fullName>Conflict with other show</fullName>
+                    <default>false</default>
+                    <label>Conflict with other show</label>
+                </value>
+                <value>
+                    <fullName>Content not as good as in the past</fullName>
+                    <default>false</default>
+                    <label>Content not as good as in the past</label>
+                </value>
+                <value>
+                    <fullName>Content not relevant</fullName>
+                    <default>false</default>
+                    <label>Content not relevant</label>
+                </value>
+                <value>
+                    <fullName>Cost</fullName>
+                    <default>false</default>
+                    <label>Cost</label>
+                </value>
+                <value>
+                    <fullName>COVID- Health Concerns</fullName>
+                    <default>false</default>
+                    <label>COVID- Health Concerns</label>
+                </value>
+                <value>
+                    <fullName>COVID- No Budget</fullName>
+                    <default>false</default>
+                    <label>COVID- No Budget</label>
+                </value>
+                <value>
+                    <fullName>COVID- Travel Restrictions</fullName>
+                    <default>false</default>
+                    <label>COVID- Travel Restrictions</label>
+                </value>
+                <value>
+                    <fullName>Customer is Out of Business</fullName>
+                    <default>false</default>
+                    <label>Customer is Out of Business</label>
+                </value>
+                <value>
+                    <fullName>Customer not a fit</fullName>
+                    <default>false</default>
+                    <label>Customer not a fit</label>
+                </value>
+                <value>
+                    <fullName>Customer prefers another Emerald Show</fullName>
+                    <default>false</default>
+                    <label>Customer prefers another Emerald Show</label>
+                </value>
+                <value>
+                    <fullName>Customer Product is not Available</fullName>
+                    <default>false</default>
+                    <label>Customer Product is not Available</label>
+                </value>
+                <value>
+                    <fullName>Does not exhibit at Trade Shows</fullName>
+                    <default>false</default>
+                    <label>Does not exhibit at Trade Shows</label>
+                </value>
+                <value>
+                    <fullName>Do Not Sell – Undesirable Exhibitor</fullName>
+                    <default>false</default>
+                    <label>Do Not Sell – Undesirable Exhibitor</label>
+                </value>
+                <value>
+                    <fullName>Duplicate Opportunity</fullName>
+                    <default>false</default>
+                    <label>Duplicate Opportunity</label>
+                </value>
+                <value>
+                    <fullName>Exhibit at Other Show(s) Only</fullName>
+                    <default>false</default>
+                    <label>Exhibit at Other Show(s) Only</label>
+                </value>
+                <value>
+                    <fullName>Exhibitors / Suppliers not relevant</fullName>
+                    <default>false</default>
+                    <label>Exhibitors / Suppliers not relevant</label>
+                </value>
+                <value>
+                    <fullName>Financial/payment problem</fullName>
+                    <default>false</default>
+                    <label>Financial/payment problem</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Perceived lack of ROI (Return on Investment)</fullName>
+                    <default>false</default>
+                    <label>Perceived lack of ROI (Return on Investment)</label>
+                </value>
+                <value>
+                    <fullName>Perceived not enough Buyers/Leads</fullName>
+                    <default>false</default>
+                    <label>Perceived not enough Buyers/Leads</label>
+                </value>
+                <value>
+                    <fullName>Potential Exhibitor participating as an Attendee</fullName>
+                    <default>false</default>
+                    <label>Potential Exhibitor participating as an Attendee</label>
+                </value>
+                <value>
+                    <fullName>Previously attended - not beneficial</fullName>
+                    <default>false</default>
+                    <label>Previously attended - not beneficial</label>
+                </value>
+                <value>
+                    <fullName>Repetitive Content</fullName>
+                    <default>false</default>
+                    <label>Repetitive Content</label>
+                </value>
+                <value>
+                    <fullName>Severe Weather, Geo-Political, Unrest, etc.</fullName>
+                    <default>false</default>
+                    <label>Severe Weather, Geo-Political, Unrest, etc.</label>
+                </value>
+                <value>
+                    <fullName>Unable to Reach</fullName>
+                    <default>false</default>
+                    <label>Unable to Reach</label>
+                </value>
+                <value>
+                    <fullName>Undesirable Booth Location</fullName>
+                    <default>false</default>
+                    <label>Undesirable Booth Location</label>
+                </value>
+                <value>
+                    <fullName>Undesirable Location(City/Venue)</fullName>
+                    <default>false</default>
+                    <label>Undesirable Location(City/Venue)</label>
+                </value>
+                <value>
+                    <fullName>Unqualified from BDM</fullName>
+                    <default>false</default>
+                    <label>Unqualified from BDM</label>
+                </value>
+                <value>
+                    <fullName>Verified Interest – Target for next show</fullName>
+                    <default>false</default>
+                    <label>Verified Interest – Target for next show</label>
+                </value>
+                <value>
+                    <fullName>Visa denied</fullName>
+                    <default>false</default>
+                    <label>Visa denied</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Attendee Prospect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Attendees Not a Match to Target Market</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Bad Experience with Emerald</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Bad experience with General Show Contractor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Co-Exhibitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Conflict - Business</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Conflict - Personal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Conflict with other show</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Cost</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>COVID- Health Concerns</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>COVID- No Budget</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>COVID- Travel Restrictions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Customer is Out of Business</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Customer not a fit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Customer prefers another Emerald Show</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Customer Product is not Available</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Does not exhibit at Trade Shows</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Do Not Sell – Undesirable Exhibitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Duplicate Opportunity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Exhibit at Other Show(s) Only</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Financial/payment problem</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Perceived lack of ROI (Return on Investment)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Perceived not enough Buyers/Leads</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Potential Exhibitor participating as an Attendee</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Severe Weather, Geo-Political, Unrest, etc.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Unable to Reach</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Undesirable Booth Location</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Undesirable Location(City/Venue)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Unqualified from BDM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Verified Interest – Target for next show</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>TR Package</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Visa denied</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Content not as good as in the past</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Content not relevant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Exhibitors / Suppliers not relevant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Previously attended - not beneficial</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <valueName>Repetitive Content</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Op_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt-Out</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID( Id )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Summary__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK('/' &amp; Id , Name, '_blank') &amp; BR() &amp; 'Stage: ' &amp; TEXT(StageName) &amp; BR() &amp; 'Total Forecasted Amount: $' &amp; TEXT( Total_Forecasted_Amount__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Summary</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Owner_Changed__c</fullName>
+        <externalId>false</externalId>
+        <label>Owner Changed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Pardot_Task_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Task ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pavilion__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Pavilion</label>
+        <referenceTo>Pavilion__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Previous_Exhibitor_Classification__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous Exhibitor Classification</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Previous_Exhibitor_Retention__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous Exhibitor Retention</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Previous_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Previous Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Probability</fullName>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Product_Image_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Image 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Product_Image_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Image 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Product_Image_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Image 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Product_Image_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Image 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Booth</fullName>
+                    <default>false</default>
+                    <label>Booth</label>
+                </value>
+                <value>
+                    <fullName>Digital</fullName>
+                    <default>false</default>
+                    <label>Digital</label>
+                </value>
+                <value>
+                    <fullName>List rental</fullName>
+                    <default>false</default>
+                    <label>List rental</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Print</fullName>
+                    <default>false</default>
+                    <label>Print</label>
+                </value>
+                <value>
+                    <fullName>Sponsorship</fullName>
+                    <default>false</default>
+                    <label>Sponsorship</label>
+                </value>
+                <value>
+                    <fullName>TR Package</fullName>
+                    <default>false</default>
+                    <label>TR Package</label>
+                </value>
+                <value>
+                    <fullName>Speaker</fullName>
+                    <default>false</default>
+                    <label>Speaker</label>
+                </value>
+                <value>
+                    <fullName>VIP Registration</fullName>
+                    <default>false</default>
+                    <label>VIP Registration</label>
+                </value>
+                <value>
+                    <fullName>Conference Registration</fullName>
+                    <default>false</default>
+                    <label>Conference Registration</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Related_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Revenue_Weighted__c</fullName>
+        <externalId>false</externalId>
+        <formula>Forecast_Revenue__c  *   Probability/100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Revenue Weighted</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sales Contact</fullName>
+                    <default>false</default>
+                    <label>Sales Contact</label>
+                </value>
+                <value>
+                    <fullName>Billing Contact</fullName>
+                    <default>false</default>
+                    <label>Billing Contact</label>
+                </value>
+                <value>
+                    <fullName>Booth Contact</fullName>
+                    <default>false</default>
+                    <label>Booth Contact</label>
+                </value>
+                <value>
+                    <fullName>Contract Contact</fullName>
+                    <default>false</default>
+                    <label>Contract Contact</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Row__c</fullName>
+        <externalId>false</externalId>
+        <label>RowId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rule_Set__c</fullName>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE(SubExpo__r.SubShow__r.Rule_Set__c,Event__r.Show__r.Rule_Set__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Rule Set</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Segment__c</fullName>
+        <externalId>false</externalId>
+        <formula>Event__r.Show__r.Segment__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SendEmail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This check box field used for sending email for single email for AE. This field set in Import file manually while importing the opportunities.</description>
+        <externalId>false</externalId>
+        <label>SendEmail</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Should_Ignore_Assignment_Rule__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Should Ignore Assignment Rule?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ShowObjectID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Event__r.Show__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ShowObjectID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ShowObject__c</fullName>
+        <externalId>false</externalId>
+        <formula>Event__r.Show__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ShowObject</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Show_OTC_Guide__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(ISPICKVAL(StageName, "Lost") || ISPICKVAL(StageName, "Sold")||ISPICKVAL(StageName, "Cancelled")||ISPICKVAL(StageName, "Verbal Commitment/Contract Sent/Pending")||  Event__r.Show__r.Billing_Coordinator__c=NULL, False, True)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Show_OTC_Guide</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Show__c</fullName>
+        <externalId>false</externalId>
+        <formula>Event__r.Show__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Show</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StageBeforeAutoClose__c</fullName>
+        <description>Save the current opportunity before we close</description>
+        <externalId>false</externalId>
+        <label>Stage Before AutoClose</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StageName</fullName>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Stage_order__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Type,
+  "No Contact Attempted", "1 No Contact Attempted",
+  "Contact Attempted/Not Made", "2 Contact Attempted/Not Made",
+  "Contact Made/Discovery", "3 Contact Made/Discovery",
+  "Contact Made/Early Discussion", "4 Contact Made/Early Discussion",
+  "Interested/Oppty Seriously Discussed", "5 Interested/Oppty Seriously Discussed",
+  "High Interest/Specific Details Reviewed", "6 High Interest/Specific Details Reviewed",
+  "Verbal Commitment/Contract Sent/Pending","7 Verbal Commitment/Contract Sent/Pending",
+  "Sold","8 Sold",
+  "Lost","9 Lost",
+  "Cancelled","10 Cancelled",
+"11")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Stage order</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to track subscriptions for Elastic Digital Market</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SubExpoObjectID__c</fullName>
+        <externalId>false</externalId>
+        <formula>SubExpo__r.Show__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SubExpoObjectID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SubExpo_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(ISNULL(SubExpo__c ),isblank(SubExpo__c)) , '_None', SubExpo__r.Name )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SubExpo Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SubExpo__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>SubExpo</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>SubExpo__c.Event__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Event__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SubExpo__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SubShow_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(ISNULL(SubExpo__c ),isblank(SubExpo__c)) , '_None', SubExpo__r.SubShowName__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SubShow Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SubShow__c</fullName>
+        <externalId>false</externalId>
+        <formula>SubExpo__r.SubShow__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SubShow</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sum_of_Forecast_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Sum of Forecast Amount</label>
+        <summarizedField>PackageForecast__c.ForecastedAmount__c</summarizedField>
+        <summaryForeignKey>PackageForecast__c.Opportunity__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Tier_Group__c</fullName>
+        <defaultValue>12</defaultValue>
+        <externalId>false</externalId>
+        <label>Tier Group</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TotalOpportunityQuantity</fullName>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Total_Expected_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Probability &gt;= 0.5, (Probability * Total_Forecasted_Amount__c), 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Expected Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Forecasted_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>Amount + Sum_of_Forecast_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Forecasted Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Non_Booth_Weighted__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Non-Booth Weighted</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Non_Booth__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Non-Booth</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Unique_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Unique Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VIP_Exhibitor_Mailing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VIP Exhibitor Mailing</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>a2z_Company_Created__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checked when a company in a2z has been created via Integration</description>
+        <externalId>false</externalId>
+        <label>a2z Company Created</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>a2z_Contact_Created__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checked when a contact has been created in a2z via integration</description>
+        <externalId>false</externalId>
+        <label>a2z Contact Created</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ee_misc_questions__c</fullName>
+        <externalId>false</externalId>
+        <label>Misc. Questions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Campaign_Short_Desc__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Campaign Short Desc</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_CompanyDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Company Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_CriticalSucessFactor__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot objective for exhibiting</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value1</fullName>
+                    <default>false</default>
+                    <label>Value1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Exhibit_at_other_show__c</fullName>
+        <externalId>false</externalId>
+        <label>Do you exhibit at other show?</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_FormName__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Form Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_InquiryReason__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason for your inquiry</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Interested_Shows__c</fullName>
+        <externalId>false</externalId>
+        <label>Interested Shows</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value1</fullName>
+                    <default>false</default>
+                    <label>Value1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Interested_SubExpos__c</fullName>
+        <externalId>false</externalId>
+        <label>Interested Sub Expos</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Artisan Resource</fullName>
+                    <default>false</default>
+                    <label>Artisan Resource</label>
+                </value>
+                <value>
+                    <fullName>Distinctive Living</fullName>
+                    <default>false</default>
+                    <label>Distinctive Living</label>
+                </value>
+                <value>
+                    <fullName>HANDMADE: Handmade® Designer Maker</fullName>
+                    <default>false</default>
+                    <label>HANDMADE: Handmade® Designer Maker</label>
+                </value>
+                <value>
+                    <fullName>HANDMADE: Handmade® Global Design</fullName>
+                    <default>false</default>
+                    <label>HANDMADE: Handmade® Global Design</label>
+                </value>
+                <value>
+                    <fullName>HOME: Accent on Design®</fullName>
+                    <default>false</default>
+                    <label>HOME: Accent on Design®</label>
+                </value>
+                <value>
+                    <fullName>HOME: Home Furnishings + Textiles</fullName>
+                    <default>false</default>
+                    <label>HOME: Home Furnishings + Textiles</label>
+                </value>
+                <value>
+                    <fullName>HOME: Tabletop + Gourmet Housewares</fullName>
+                    <default>false</default>
+                    <label>HOME: Tabletop + Gourmet Housewares</label>
+                </value>
+                <value>
+                    <fullName>LIFESTYLE: Baby + Child</fullName>
+                    <default>false</default>
+                    <label>LIFESTYLE: Baby + Child</label>
+                </value>
+                <value>
+                    <fullName>LIFESTYLE: Gift</fullName>
+                    <default>false</default>
+                    <label>LIFESTYLE: Gift</label>
+                </value>
+                <value>
+                    <fullName>LIFESTYLE: Personal Accessories</fullName>
+                    <default>false</default>
+                    <label>LIFESTYLE: Personal Accessories</label>
+                </value>
+                <value>
+                    <fullName>LIFESTYLE: Personal Care + Wellness</fullName>
+                    <default>false</default>
+                    <label>LIFESTYLE: Personal Care + Wellness</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_PrimaryProduct__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Primary Product</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_ProductCategories_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Product Categories</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_ProductCategories__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Categories</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_ShowLandingPage__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Show Landing Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_ShowWebsite__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Show Website</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_TradeshowRole__c</fullName>
+        <externalId>false</externalId>
+        <label>Tradeshow Role</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_budget_decision_timing__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget Decision Timing</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_custom_question1__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Custom Question 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_custom_question2__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Custom Question 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_custom_question3__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Custom Question 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>_blank</fullName>
+                    <default>false</default>
+                    <label>_blank</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_custom_question4__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Custom Question 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>_blank</fullName>
+                    <default>false</default>
+                    <label>_blank</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_grade__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Grade</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_score__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_trade_shows_I_exhibit_at__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Trade Shows I exhibit at</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <listViews>
+        <fullName>ASD_A18_Open_Opportunities_by_AE</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <columns>Score__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>SubExpo__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost</value>
+        </filters>
+        <filters>
+            <field>Event_Name__c</field>
+            <operation>equals</operation>
+            <value>2020 ASD Market Week August</value>
+        </filters>
+        <label>8 - ASD A20 Open - by AE</label>
+        <sharedTo>
+            <group>ASD</group>
+            <role>ASD_Account_Executives</role>
+            <role>ASD_Marketing_Coordinators</role>
+            <role>ASD_Marketing_Management</role>
+            <role>ASD_Sales_Management</role>
+            <role>ASD_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ASD_A18_Pardot_Opportunities_ALL</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <columns>Score__c</columns>
+        <columns>SubExpo__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost</value>
+        </filters>
+        <filters>
+            <field>Event_Name__c</field>
+            <operation>equals</operation>
+            <value>2020 ASD Market Week August</value>
+        </filters>
+        <filters>
+            <field>Campaign_Short_Description__c</field>
+            <operation>startsWith</operation>
+            <value>P-</value>
+        </filters>
+        <label>1 - ASD A20 Pardot Open- By AE</label>
+        <sharedTo>
+            <group>ASD</group>
+            <roleAndSubordinates>ASD_Account_Executives</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Marketing_Coordinators</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Marketing_Management</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Sales_Management</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Show_Management</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ASD_A18_Sold_Opportunities_ALL</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <columns>Score__c</columns>
+        <columns>SubExpo__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Sold</value>
+        </filters>
+        <filters>
+            <field>Event_Name__c</field>
+            <operation>equals</operation>
+            <value>2020 ASD Market Week August</value>
+        </filters>
+        <label>6 - ASD A20 Sold - By AE</label>
+        <sharedTo>
+            <group>ASD</group>
+            <roleAndSubordinates>ASD_Account_Executives</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Marketing_Coordinators</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Marketing_Management</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Sales_Management</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Show_Management</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ASD_My_Expiring_Forecasts</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Score__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>A2Z_CoID__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>lessThan</operation>
+            <value>NEXT_N_DAYS:7</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notContain</operation>
+            <value>Sold,Lost,Cancelled,No Contact Attempted</value>
+        </filters>
+        <filters>
+            <field>Show__c</field>
+            <operation>equals</operation>
+            <value>ASD</value>
+        </filters>
+        <label>ASD -  My Expiring Forecasts</label>
+        <sharedTo>
+            <role>ASD_Account_Executives</role>
+            <role>ASD_Marketing_Coordinators</role>
+            <role>ASD_Marketing_Management</role>
+            <role>ASD_Sales_Management</role>
+            <role>ASD_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Opportunities_JA_2020_Spring</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>SubExpo__c</columns>
+        <columns>Score__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2020 JA New York Spring</value>
+        </filters>
+        <label>All Opportunities JA 2020 Spring</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+            <role>JA_Account_Executives</role>
+            <role>JA_Marketing_Coordinators</role>
+            <role>JA_Marketing_Management</role>
+            <role>JA_Sales_Management</role>
+            <role>JA_Show_Management</role>
+            <roleAndSubordinates>JA_Account_Executives</roleAndSubordinates>
+            <roleAndSubordinates>JA_Marketing_Coordinators</roleAndSubordinates>
+            <roleAndSubordinates>JA_Marketing_Management</roleAndSubordinates>
+            <roleAndSubordinates>JA_Sales_Management</roleAndSubordinates>
+            <roleAndSubordinates>JA_Show_Management</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Attendee_Opportunities1</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>EE_Record_Type__c</field>
+            <operation>equals</operation>
+            <value>Attendee</value>
+        </filters>
+        <label>Attendee Opportunities</label>
+    </listViews>
+    <listViews>
+        <fullName>Copy_of_All_Opportunities_JA_2020_Summer</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>SubExpo__c</columns>
+        <columns>Score__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2020 JA New York Summer</value>
+        </filters>
+        <label>All Opportunities JA 2020 Summer</label>
+        <sharedTo>
+            <role>JA_Sales_Management</role>
+            <role>JA_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Default_Opportunity_Pipeline</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>LAST_N_MONTHS:3</value>
+        </filters>
+        <label>Opportunity Pipeline</label>
+    </listViews>
+    <listViews>
+        <fullName>Home_Collection_Pardot</fullName>
+        <booleanFilter>(1 or 3 )and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>SubExpo__c</columns>
+        <columns>Score__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Interested/Oppty Seriously Discussed,High Interest/Specific Details Reviewed</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2019 JA New York Fall</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Verbal Commitment/Contract Sent/Pending</value>
+        </filters>
+        <label>My Open Forecasts JA 2019 Fall</label>
+        <sharedTo>
+            <role>JA_Account_Executives</role>
+            <role>JA_Marketing_Coordinators</role>
+            <role>JA_Marketing_Management</role>
+            <role>JA_Sales_Management</role>
+            <role>JA_Show_Management</role>
+            <roleAndSubordinates>JA_Account_Executives</roleAndSubordinates>
+            <roleAndSubordinates>JA_Marketing_Coordinators</roleAndSubordinates>
+            <roleAndSubordinates>JA_Marketing_Management</roleAndSubordinates>
+            <roleAndSubordinates>JA_Sales_Management</roleAndSubordinates>
+            <roleAndSubordinates>JA_Show_Management</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Open_Forecasts_JA_2020_Spring</fullName>
+        <booleanFilter>(1 or 3 )and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>SubExpo__c</columns>
+        <columns>Score__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Interested/Oppty Seriously Discussed,High Interest/Specific Details Reviewed</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2020 JA New York Spring</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Verbal Commitment/Contract Sent/Pending</value>
+        </filters>
+        <label>Open Forecasts JA 2020 Spring</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+            <role>JA_Account_Executives</role>
+            <role>JA_Marketing_Coordinators</role>
+            <role>JA_Marketing_Management</role>
+            <role>JA_Sales_Management</role>
+            <role>JA_Show_Management</role>
+            <roleAndSubordinates>JA_Account_Executives</roleAndSubordinates>
+            <roleAndSubordinates>JA_Marketing_Coordinators</roleAndSubordinates>
+            <roleAndSubordinates>JA_Marketing_Management</roleAndSubordinates>
+            <roleAndSubordinates>JA_Sales_Management</roleAndSubordinates>
+            <roleAndSubordinates>JA_Show_Management</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Needs_AR_Approval</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>A2Z_CoID__c</columns>
+        <columns>Event__c</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Approved_For_A2Z__c</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>A2Z_CoID__c</field>
+            <operation>equals</operation>
+            <value>NONE</value>
+        </filters>
+        <filters>
+            <field>Approved_For_A2Z__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Verbal Commitment/Contract Sent/Pending,Sold</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.LAST_UPDATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>LAST_WEEK</value>
+        </filters>
+        <label>Needs AR Approval</label>
+        <sharedTo>
+            <role>AR_Manager</role>
+            <role>AR_Staff</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Open_Forecasts_JA_2020_Summer</fullName>
+        <booleanFilter>(1 or 3 )and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>SubExpo__c</columns>
+        <columns>Score__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Interested/Oppty Seriously Discussed,High Interest/Specific Details Reviewed</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2020 JA New York Summer</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Verbal Commitment/Contract Sent/Pending</value>
+        </filters>
+        <label>Open Forecasts JA 2020 Summer</label>
+        <sharedTo>
+            <role>JA_Sales_Management</role>
+            <role>JA_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X0_ASD_M20_Renewals_by_AE</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <columns>Score__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>SubExpo__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost</value>
+        </filters>
+        <filters>
+            <field>Event_Name__c</field>
+            <operation>equals</operation>
+            <value>2020 ASD Market Week August</value>
+        </filters>
+        <filters>
+            <field>Campaign_Short_Description__c</field>
+            <operation>contains</operation>
+            <value>Renew</value>
+        </filters>
+        <label>2 - ASD A20 Renewals- by AE</label>
+        <sharedTo>
+            <group>ASD</group>
+            <role>ASD_Account_Executives</role>
+            <role>ASD_Marketing_Coordinators</role>
+            <role>ASD_Marketing_Management</role>
+            <role>ASD_Sales_Management</role>
+            <role>ASD_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2019_BDNY_Pipeline</fullName>
+        <booleanFilter>1 and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost,Cancelled</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2019 Boutique Design New York</value>
+        </filters>
+        <label>2019 BDNY Pipeline</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2019_CSC</fullName>
+        <booleanFilter>1 and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost,Cancelled</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2019 Construction Super Conference</value>
+        </filters>
+        <label>2019 CSC</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2019_HCD_Expo_Pipeline</fullName>
+        <booleanFilter>1 and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost,Cancelled</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2019 Healthcare Design Expo and Conference</value>
+        </filters>
+        <label>2019 HCD Expo Pipeline</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2019_H_X</fullName>
+        <booleanFilter>1 and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost,Cancelled</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2019 HX</value>
+        </filters>
+        <label>2019 H|X</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2020_BDNY_All_Opp_s_Jana</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>Billing_State_Code__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>Roesch</value>
+        </filters>
+        <filters>
+            <field>Event_Name__c</field>
+            <operation>equals</operation>
+            <value>2020 Boutique Design New York</value>
+        </filters>
+        <label>2020 BDNY All Opp's - Jana</label>
+    </listViews>
+    <listViews>
+        <fullName>X2020_BDNY_All_Opp_s_Kari</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>Nylund</value>
+        </filters>
+        <filters>
+            <field>Event_Name__c</field>
+            <operation>equals</operation>
+            <value>2020 Boutique Design New York</value>
+        </filters>
+        <label>2020 BDNY All Opp's - Kari</label>
+    </listViews>
+    <listViews>
+        <fullName>X2020_BDNY_All_Opp_s_Keelie</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>Schmidt</value>
+        </filters>
+        <filters>
+            <field>Event_Name__c</field>
+            <operation>equals</operation>
+            <value>2020 Boutique Design New York</value>
+        </filters>
+        <label>2020 BDNY All Opp's - Keeli</label>
+    </listViews>
+    <listViews>
+        <fullName>X2020_EFA_Pipeline</fullName>
+        <booleanFilter>1 and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost,Cancelled</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2021 Environments for Aging</value>
+        </filters>
+        <label>2021 EFA Pipeline</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2020_HD_Expo_Pipeline</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost,Cancelled</value>
+        </filters>
+        <filters>
+            <field>Event_Code__c</field>
+            <operation>equals</operation>
+            <value>3550-21</value>
+        </filters>
+        <label>2021 HD Expo Pipeline</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2020_ICFF_NYC_Pipeline</fullName>
+        <booleanFilter>1 and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost,Cancelled</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2021 ICFF NYC</value>
+        </filters>
+        <label>2021 ICFF NYC  Pipeline</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2020_JA_Spring_Pipeline</fullName>
+        <booleanFilter>(1 or 3 )and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Interested/Oppty Seriously Discussed,High Interest/Specific Details Reviewed</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2021 JA New York Spring</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Verbal Commitment/Contract Sent/Pending</value>
+        </filters>
+        <label>2021 JA Spring Pipeline</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2020_LVAJWS_Pipeline</fullName>
+        <booleanFilter>1 and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost,Cancelled</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2021 Las Vegas Antique Jewelry</value>
+        </filters>
+        <label>2021 LVAJWS Pipeline</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2020_NYAJWS_Pipeline</fullName>
+        <booleanFilter>1 and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost,Cancelled</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2021 New York Antique</value>
+        </filters>
+        <label>2021 NYAJWS Pipeline</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2020_OMBAS_Pipeline</fullName>
+        <booleanFilter>1 and 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.EXP_AMOUNT</columns>
+        <columns>NSF_Weighted__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Score__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Sold,Lost,Cancelled</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2021 The Original Miami</value>
+        </filters>
+        <label>2021 OMBAS Pipeline</label>
+        <sharedTo>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X3_ASD_A20_Pipeline_by_AE</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>No Contact Attempted,Contact Attempted/Not Made,Contact Made/Early Discussion</value>
+        </filters>
+        <filters>
+            <field>Event_Name__c</field>
+            <operation>equals</operation>
+            <value>2020 ASD Market Week August</value>
+        </filters>
+        <label>3 - ASD A20 Pipeline- by AE</label>
+    </listViews>
+    <listViews>
+        <fullName>X3_ASD_M20_Early_Discussion_by_AE</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <columns>Score__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>SubExpo__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Contact Made/Early Discussion</value>
+        </filters>
+        <filters>
+            <field>Event_Name__c</field>
+            <operation>equals</operation>
+            <value>2020 ASD Market Week August</value>
+        </filters>
+        <label>4 - ASD A20 Early Discussion- by AE</label>
+        <sharedTo>
+            <group>ASD</group>
+            <role>ASD_Account_Executives</role>
+            <role>ASD_Marketing_Coordinators</role>
+            <role>ASD_Marketing_Management</role>
+            <role>ASD_Sales_Management</role>
+            <role>ASD_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X5_ASD_M20_New_by_AE</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <columns>Score__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>SubExpo__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>No Contact Attempted</value>
+        </filters>
+        <filters>
+            <field>Event_Name__c</field>
+            <operation>equals</operation>
+            <value>2020 ASD Market Week August</value>
+        </filters>
+        <label>5 - ASD A20 New- by AE</label>
+        <sharedTo>
+            <group>ASD</group>
+            <role>ASD_Account_Executives</role>
+            <role>ASD_Marketing_Coordinators</role>
+            <role>ASD_Marketing_Management</role>
+            <role>ASD_Sales_Management</role>
+            <role>ASD_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X7_ASD_M20_Lost_By_AE</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Campaign_Short_Description__c</columns>
+        <columns>Score__c</columns>
+        <columns>SubExpo__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Forecast_NSF__c</columns>
+        <columns>Forecast_Revenue__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Lost</value>
+        </filters>
+        <filters>
+            <field>Event_Name__c</field>
+            <operation>equals</operation>
+            <value>2020 ASD Market Week August</value>
+        </filters>
+        <label>7 - ASD A20 Lost- By AE</label>
+        <sharedTo>
+            <group>ASD</group>
+            <roleAndSubordinates>ASD_Account_Executives</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Marketing_Coordinators</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Marketing_Management</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Sales_Management</roleAndSubordinates>
+            <roleAndSubordinates>ASD_Show_Management</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Event_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.CLOSE_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.STAGE_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SubExpo_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Event_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>External_Account_ID_Text__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Event__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SubShow_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.STAGE_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>A2Z_Required_Field</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( 
+Probability &gt;= 0.90, 
+OR ( ISBLANK(Account.A2Z_CoID__c),
+      ISNULL(Account.A2Z_CoID__c) 
+   ),
+
+OR (
+     ISBLANK(Account.FirstName__c ),
+     ISBLANK(Account.LastName__c ),   
+     ISBLANK(Account.Email_Main__c ), 
+     ISBLANK(Account.BillingStreet), 
+     ISBLANK(Account.BillingCity), 
+     ISBLANK(Account.BillingCountry), 
+     ISBLANK(Account.Phone),
+     AND( 
+         OR(
+          ISPICKVAL(Account.BillingCountryCode,'US'), 
+          ISPICKVAL(Account.BillingCountryCode,'CA') 
+          ),
+
+        OR( 
+           ISBLANK(Account.BillingState), 
+           ISBLANK(Account.BillingPostalCode)
+          )
+        )
+     )
+)&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False 
+&amp;&amp;  EE_Record_Type__c == "Exhibitor"</errorConditionFormula>
+        <errorMessage>The Account for this Opportunity does not have complete information. In order to set the Opportunity to 90% or greater, you must first complete the following fields: [A2Z Contact First &amp; Last Name,A2Z Company E-Mail, HQ Address,Phone] on the Account tab.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Amount</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (
+ISBLANK(Amount),
+Probability &gt;= 0.5 ,
+NOT(ISPICKVAL(Product__c,'TR Package'))
+)&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Amount</errorDisplayField>
+        <errorMessage>Please enter Amount</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Amount_NOT_Allowed_For_TR</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( 
+ABS(Amount) &gt; 0.00,
+ISPICKVAL(Product__c,'TR Package')
+)&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Amount</errorDisplayField>
+        <errorMessage>For TR Package, please forecast each product individually.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Booth_Expired</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (ISPICKVAL(StageName,"Active"),
+     ISPICKVAL( Product__c, "Booth"),
+     Event_Booth_Last_Date__c &lt; Today())&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Event__c</errorDisplayField>
+        <errorMessage>You cannot create a Booth Opportunity for the  [Event] because it is past the date for Opportunity creation.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Forecast_NFS_Required</fullName>
+        <active>true</active>
+        <description>changed on 1/22 to accommodate Marketing Operations Stage Change initiative</description>
+        <errorConditionFormula>AND
+(Probability &gt;= 0.5,
+(ISPICKVAL( Product__c, "Booth")),
+ISBLANK( Forecast_NSF__c )
+)&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Forecast_NSF__c</errorDisplayField>
+        <errorMessage>Forecast NSF is required when forecasting booth revenue</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Non_Booth_expired</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( ISPICKVAL(StageName,"Active"),
+ NOT(ISPICKVAL( Product__c, "Booth")), 
+ Event_Non_Booth_Last_Date__c &lt; Today())&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Event__c</errorDisplayField>
+        <errorMessage>You cannot create a Non-Booth Opportunity for the [Event] because it is past the date for Opportunity creation.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Non_TR_With_PackageForecast</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISPICKVAL(Product__c,'TR Package')),
+    Not(ISPICKVAL(StageName,'No Contact Attempted')), 
+( Sum_of_Forecast_Amount__c  &gt; 0))&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False
+&amp;&amp;  EE_Record_Type__c = "Exhibitor"</errorConditionFormula>
+        <errorDisplayField>Product__c</errorDisplayField>
+        <errorMessage>Non TR opportunity CANNOT have forecast at package level</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Object_code_for_Lost_and_cancelled</fullName>
+        <active>true</active>
+        <description>updated 4/16
+Does not let a user enter an objection code if the stagename is not lost or cancelled</description>
+        <errorConditionFormula>AND(
+and(
+   NOT(ISPICKVAL( StageName,'Lost')),NOT(ISPICKVAL( StageName,'Cancelled'))), NOT(ISBLANK( TEXT(Objection_Code__c ))))
+&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Objection_Code__c</errorDisplayField>
+        <errorMessage>You cannot enter an OBJECTION CODE  if the Stage is NOT Lost or Cancelled</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ObjectionCodeonlyforLostandCancelled</fullName>
+        <active>true</active>
+        <description>Set Objection code only when Opportunity Stage is Lost updated 4/16 OR cancelled</description>
+        <errorConditionFormula>AND(
+OR(
+  ISPICKVAL(StageName,'Lost'),ISPICKVAL(StageName,'Cancelled')),(ISBLANK(Text( Objection_Code__c ))))&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Objection_Code__c</errorDisplayField>
+        <errorMessage>An Objection Code is required when the Opportunity is set to Lost or Cancelled</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Opportunity_for_NSF</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISPICKVAL( Product__c ,"Booth"))  &amp;&amp; NOT(ISBLANK(  Forecast_NSF__c  ))&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Forecast_NSF__c</errorDisplayField>
+        <errorMessage>NSF cannot be entered for Non-Booth opportunities. Please check Product Category</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Related_Opportunity_Event</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( 
+    Related_Opportunity__r.Event__c &lt;&gt; NULL, 
+    Event__r.Name &lt;&gt; Related_Opportunity__r.Event__r.Name  
+)&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Related_Opportunity__c</errorDisplayField>
+        <errorMessage>You can only relate to an opportunity of the same Event</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SubExpo_Is_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISBLANK( SubExpo__c ),
+ Probability &gt; 0.49,
+CONTAINS('ASD,NY NOW,IGES,Surf Expo January,Surf Expo September', Show__c ),
+NOT (CONTAINS(Event_Name__c, "Demo Day"))
+)&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False &amp;&amp;  EE_Record_Type__c ='Exhibitor'</errorConditionFormula>
+        <errorDisplayField>SubExpo__c</errorDisplayField>
+        <errorMessage>SubExpo is required when Probability is 50% or greater.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Order_History</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Order History</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://dw-report-scc/ReportServer/Pages/ReportViewer.aspx?%2fSalesforce%2fOpen%2fOrderHistory_AllSources&amp;pSFID={!Account.Account_18_digit_ID__c }&amp;pEventCode={!Opportunity.Event_Code__c}&amp;pCoID={!Opportunity.A2Z_CoID__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Order_History_v3</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Order History (v3)</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://aurpdatawhsql02.emeraldexpo.net/Reportserver/Pages/ReportViewer.aspx?%2fSalesforce%2fV3%2fOpen%2fA2Z%2fOrderHistory_AllSources&amp;pSFID={!Account.Account_18_digit_ID__c  }&amp;pEventCode={!Opportunity.Event_Code__c}</url>
+    </webLinks>
+</CustomObject>

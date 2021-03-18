@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NY_NOW</letterhead>
+    <name>Designer Maker - NR. Recommend Gift</name>
+    <style>freeForm</style>
+    <subject>Designer Maker Jury Feedback - {!Account.Name}</subject>
+    <textOnly>{!Account.Name}
+
+Dear {!Contact.FirstName},
+
+Thank you for your recent submission to Handmade® Designer Maker at NY NOW®.
+
+The Handmade Selection Committee has reviewed all submissions. After careful consideration they determined that although your line will be a great addition to NY NOW, Handmade Designer Maker is not the best fit based on the current needs of the section and criteria the committee is seeking to promote.
+
+Please be assured that this decision is not a negative reflection on the quality of your merchandise. It is rather an assessment of whether the line presently matches the needs and design criteria of Handmade. As Handmade is juried by an outside Selection Committee, the results cannot be overridden.
+
+The Selection Committee recommended your line for placement in our Gift section which features: stationery and publishing, collectibles, ceramic giftware, pet products, party lines, trend merchandise, premiums, souvenirs and novelties, home office products, floral &amp; garden accessories, Judaica, and more.
+
+We ask that you contact Justine Denich &amp; Stephanie Gaspari (copied on this email) to inquire about securing placement as soon as possible.
+
+On behalf of the Handmade Selection Committee, we wish you continued success.
+Sincerely,
+
+Ashley Ciofrone | Sales Manager | 914-421-3310
+Allison Garafalo | Sales Director | 914-421-3212</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

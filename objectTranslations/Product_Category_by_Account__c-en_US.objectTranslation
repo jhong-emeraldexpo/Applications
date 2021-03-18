@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Category by Account</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Categories by Account</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Details by Show --></label>
+        <name>Account_Details_by_Show__c</name>
+        <relationshipLabel><!-- Product Categories by Account --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Product Categories by Account --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Category --></label>
+        <name>Product_Category__c</name>
+        <relationshipLabel><!-- Product Categories by Account --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Sub-Category --></label>
+        <name>Product_Sub_Category__c</name>
+        <relationshipLabel><!-- Product Categories by Account --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rank --></label>
+        <name>Rank__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show --></label>
+        <name>Show__c</name>
+        <relationshipLabel><!-- Product Categories by Account --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Product Category by Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

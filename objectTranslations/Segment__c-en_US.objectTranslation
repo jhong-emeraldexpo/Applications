@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Segment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Segments</value>
+    </caseValues>
+    <fields>
+        <help><!-- Help us understand which method to determine the list of accounts in the universe:  By Account Segment for a particular show or Lead Scoring for a specific event. --></help>
+        <label><!-- Account Universe Method --></label>
+        <name>Account_Universe_Method__c</name>
+        <picklistValues>
+            <masterLabel>Account Segment</masterLabel>
+            <translation><!-- Account Segment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Scoring</masterLabel>
+            <translation><!-- Lead Scoring --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Brand --></label>
+        <name>Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Roles To Sync --></label>
+        <name>Contact_Roles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>Event__c</name>
+        <relationshipLabel><!-- Segments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- This is a prospect list --></label>
+        <name>Has_No_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dynamically Maintained? --></label>
+        <name>IsDynamic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync with Pardot List --></label>
+        <name>IsSyncWithPardot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objection Code --></label>
+        <name>Objection_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage --></label>
+        <name>Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pardot List --></help>
+        <label><!-- Pardot List --></label>
+        <name>Pardot_List__c</name>
+        <relationshipLabel><!-- Segments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show --></label>
+        <name>Show__c</name>
+        <relationshipLabel><!-- Segments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub Expo --></label>
+        <name>SubExpo__c</name>
+        <relationshipLabel><!-- Segments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SubShow --></label>
+        <name>SubShow__c</name>
+        <relationshipLabel><!-- Segments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation><!-- Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Attendee</masterLabel>
+            <translation><!-- Current Attendee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Exhibitor</masterLabel>
+            <translation><!-- Current Exhibitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound</masterLabel>
+            <translation><!-- Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Persona</masterLabel>
+            <translation><!-- Persona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winback</masterLabel>
+            <translation><!-- Winback --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Segment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot --></label>
+            <section>Pardot</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Segment Layout-Lightning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot --></label>
+            <section>Pardot</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cannot select an Objection Code unless an Opportunity Stage of Lost or Cancelled is selected --></errorMessage>
+        <name>CancelledOrLostRequiredWhenObjectionCode</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the current event for the show linked to this segment. --></errorMessage>
+        <name>EventRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity Stage is not required for Prospect List. --></errorMessage>
+        <name>OpportunityStageNotRequiredForProspect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter an Opportunity Stage for Dynamic Lists for non-Prospect Lists --></errorMessage>
+        <name>OpptyStageRequiredFor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pardot List is required when Sync with Pardot List is selected --></errorMessage>
+        <name>PardotListRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account Universe Method is required for Prospect Lists --></errorMessage>
+        <name>SelectAccountUniverse</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a Subexpo to define Opportunity Exclusion for Dynamic, non-Prospect List. --></errorMessage>
+        <name>SubExpoRequiredForDynamicNonProspects</name>
+    </validationRules>
+</CustomObjectTranslation>

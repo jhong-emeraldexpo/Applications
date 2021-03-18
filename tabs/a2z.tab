@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>a2z web tab</description>
+    <frameHeight>600</frameHeight>
+    <hasSidebar>false</hasSidebar>
+    <label>a2z</label>
+    <motif>Custom62: Chalkboard</motif>
+    <url>https://s15.a2zinc.net/Clients/EmeraldExpo/GlobalAdmin/GlobalAdmin/sso.aspx?UserToken={!User.Id}</url>
+    <urlEncodingKey>ISO-8859-1</urlEncodingKey>
+</CustomTab>

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>EE_Segment_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>EE_Segment_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account_Universe_Method__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Help us understand which method to determine the list of accounts in the universe:  By Account Segment for a particular show or Lead Scoring for a specific event.</inlineHelpText>
+        <label>Account Universe Method</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account Segment</fullName>
+                    <default>true</default>
+                    <label>Account Segment</label>
+                </value>
+                <value>
+                    <fullName>Lead Scoring</fullName>
+                    <default>false</default>
+                    <label>Lead Scoring</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Brand__c</fullName>
+        <externalId>false</externalId>
+        <formula>Show__r.Brand__c</formula>
+        <label>Brand</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Roles__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Roles To Sync</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Contact_Role</valueSetName>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>500</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Event</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Event__c.Show__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Show__c</valueField>
+            </filterItems>
+            <infoMessage>Selected event must belong to the specified show.</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Segments</relationshipLabel>
+        <relationshipName>Segments</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Has_No_Opportunity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>This is a prospect list</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsDynamic__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Will Salesforce automatically maintain the Account Segment?</description>
+        <externalId>false</externalId>
+        <label>Dynamically Maintained?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsSyncWithPardot__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sync with Pardot List</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Objection_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Objection Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Objection_Code</valueSetName>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Stage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>StageName</valueSetName>
+        </valueSet>
+        <visibleLines>9</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Pardot_List__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Pardot List</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Pardot List</inlineHelpText>
+        <label>Pardot List</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Pardot_List__c.IsDeleted__c</field>
+                <operation>equals</operation>
+                <value>0</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Pardot_List__c</referenceTo>
+        <relationshipLabel>Segments</relationshipLabel>
+        <relationshipName>Segments</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <defaultValue>"Booth"</defaultValue>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Product</valueSetName>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Show__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Show</label>
+        <referenceTo>Show__c</referenceTo>
+        <relationshipName>Lists</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SubExpo__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sub Expo</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>SubExpo__c.SubShow__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.SubShow__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>SubExpo__c.Event__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Event__c</valueField>
+            </filterItems>
+            <infoMessage>Sub Expo must belong to the specified Sub Show</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SubExpo__c</referenceTo>
+        <relationshipLabel>Segments</relationshipLabel>
+        <relationshipName>Segments</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SubShow__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>SubShow</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>SubShow__c.Show__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Show__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SubShow__c</referenceTo>
+        <relationshipName>Lists</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Renewal</fullName>
+                    <default>false</default>
+                    <label>Renewal</label>
+                </value>
+                <value>
+                    <fullName>Winback</fullName>
+                    <default>false</default>
+                    <label>Winback</label>
+                </value>
+                <value>
+                    <fullName>Lost</fullName>
+                    <default>false</default>
+                    <label>Lost</label>
+                </value>
+                <value>
+                    <fullName>Prospect</fullName>
+                    <default>false</default>
+                    <label>Prospect</label>
+                </value>
+                <value>
+                    <fullName>Inbound</fullName>
+                    <default>false</default>
+                    <label>Inbound</label>
+                </value>
+                <value>
+                    <fullName>Current Exhibitor</fullName>
+                    <default>false</default>
+                    <label>Current Exhibitor</label>
+                </value>
+                <value>
+                    <fullName>Current Attendee</fullName>
+                    <default>false</default>
+                    <label>Current Attendee</label>
+                </value>
+                <value>
+                    <fullName>Association</fullName>
+                    <default>false</default>
+                    <label>Association</label>
+                </value>
+                <value>
+                    <fullName>Persona</fullName>
+                    <default>false</default>
+                    <label>Persona</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Segment</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>Show__c</columns>
+        <columns>SubShow__c</columns>
+        <columns>Description__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>OBJECT_ID</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Surf_Expo_September_2020</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>equals</operation>
+            <value>2020 Surf Expo September</value>
+        </filters>
+        <label>Surf Expo September 2020</label>
+    </listViews>
+    <nameField>
+        <label>Segment Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Segments</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Show__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Show__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SubShow__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Show__c</searchFilterFields>
+        <searchFilterFields>SubShow__c</searchFilterFields>
+        <searchFilterFields>Type__c</searchFilterFields>
+        <searchResultsAdditionalFields>Show__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SubShow__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>CancelledOrLostRequiredWhenObjectionCode</fullName>
+        <active>true</active>
+        <description>Cannot select an Objection Code, unless an Opportunity Stage of Lost or Cancelled is selected</description>
+        <errorConditionFormula>AND(
+AND(
+   !INCLUDES( Opportunity_Stage__c,'Lost'),!INCLUDES(Opportunity_Stage__c,'Cancelled')),(!ISBLANK( Objection_Code__c )))</errorConditionFormula>
+        <errorDisplayField>Objection_Code__c</errorDisplayField>
+        <errorMessage>Cannot select an Objection Code unless an Opportunity Stage of Lost or Cancelled is selected</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>EventRequired</fullName>
+        <active>true</active>
+        <description>Event is required if this is a dynamic segment</description>
+        <errorConditionFormula>AND ( (IsDynamic__c = True),ISBLANK(Event__c))</errorConditionFormula>
+        <errorDisplayField>Event__c</errorDisplayField>
+        <errorMessage>Please select the current event for the show linked to this segment.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OpportunityStageNotRequiredForProspect</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+ Has_No_Opportunity__c = TRUE, NOT(ISBLANK(  Opportunity_Stage__c  )))</errorConditionFormula>
+        <errorDisplayField>Opportunity_Stage__c</errorDisplayField>
+        <errorMessage>Opportunity Stage is not required for Prospect List.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OpptyStageRequiredFor</fullName>
+        <active>true</active>
+        <description>If Dynamic Maintained = True AND  ISProspect List = FALSE
+Required Fields
+
+•	Opportunity Stage</description>
+        <errorConditionFormula>AND(IsDynamic__c == TRUE, Has_No_Opportunity__c ==FALSE,  ISBLANK( Opportunity_Stage__c ))</errorConditionFormula>
+        <errorDisplayField>Opportunity_Stage__c</errorDisplayField>
+        <errorMessage>Please Enter an Opportunity Stage for Dynamic Lists for non-Prospect Lists</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PardotListRequired</fullName>
+        <active>true</active>
+        <description>Pardot List Name is required if Sync with Pardot List is checked.</description>
+        <errorConditionFormula>AND(IsSyncWithPardot__c  = True, ISBlank(Pardot_List__c ))</errorConditionFormula>
+        <errorDisplayField>Pardot_List__c</errorDisplayField>
+        <errorMessage>Pardot List is required when Sync with Pardot List is selected</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SelectAccountUniverse</fullName>
+        <active>true</active>
+        <description>Select account universe if checkbox is this is prospect list = TRUE</description>
+        <errorConditionFormula>AND
+(
+  Has_No_Opportunity__c==TRUE, 
+  AND
+     (
+       !ISPICKVAL(
+         Account_Universe_Method__c, "Lead Scoring")
+         
+            , 
+       !ISPICKVAL(
+           Account_Universe_Method__c, "Account Segment")
+           )
+)</errorConditionFormula>
+        <errorDisplayField>Account_Universe_Method__c</errorDisplayField>
+        <errorMessage>Account Universe Method is required for Prospect Lists</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SubExpoRequiredForDynamicNonProspects</fullName>
+        <active>true</active>
+        <description>If Dynamic Maintained = True AND  ISProspect List = FALSE
+Required Fields
+
+
+IF Sub Show IS NOT BLANK
+•	SubExpo</description>
+        <errorConditionFormula>AND(IsDynamic__c == TRUE, Has_No_Opportunity__c ==FALSE,  !ISBLANK( SubShow__c ), ISBLANK(SubExpo__c))</errorConditionFormula>
+        <errorDisplayField>SubExpo__c</errorDisplayField>
+        <errorMessage>Please enter a Subexpo to define Opportunity Exclusion for Dynamic, non-Prospect List.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

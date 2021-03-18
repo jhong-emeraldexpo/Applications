@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EE_Integration_Archive</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EE_Integration_Archives</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>Campaign__c</name>
+        <relationshipLabel><!-- EE_Integration_Archives --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- EE_Integration_Archives --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>Event__c</name>
+        <relationshipLabel><!-- EE_Integration_Archives --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Created Date --></label>
+        <name>Source_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Id --></label>
+        <name>Source_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SubExpo --></label>
+        <name>SubExpo__c</name>
+        <relationshipLabel><!-- EE_Integration_Archives --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Target Created Date --></label>
+        <name>Target_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Id --></label>
+        <name>Target_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

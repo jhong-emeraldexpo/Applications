@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom permission is user for by passing validation rule for Data Integration profiles and data migration users</description>
+    <isLicensed>false</isLicensed>
+    <label>Bypass Validation rules for Users</label>
+</CustomPermission>

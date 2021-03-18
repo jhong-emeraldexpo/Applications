@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contact Reg Demo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contact Reg Demo</value>
+    </caseValues>
+    <fields>
+        <label><!-- ContactID --></label>
+        <name>ContactID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactRegDemoID --></label>
+        <name>ContactRegDemoID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Contact Reg Demo --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CreatedDate --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Registered --></label>
+        <name>Event_Registered__c</name>
+        <relationshipLabel><!-- Contact Reg Demo --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>Event__c</name>
+        <relationshipLabel><!-- Contact Reg Demo --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ExternalID --></label>
+        <name>ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldDetailID --></label>
+        <name>FieldDetailID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldPickID --></label>
+        <name>FieldPickID__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key --></label>
+        <name>Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label --></label>
+        <name>Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastModifiedDate --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductCode --></label>
+        <name>ProductCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductGroupID --></label>
+        <name>ProductGroupID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductID --></label>
+        <name>ProductID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RegistrationKey --></label>
+        <name>RegistrationKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- SourceKey --></label>
+        <name>SourceKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

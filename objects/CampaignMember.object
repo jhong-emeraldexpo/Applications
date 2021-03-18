@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Campaign Members</relationshipLabel>
+        <relationshipName>Campaign_Members</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>City</fullName>
+    </fields>
+    <fields>
+        <fullName>CompanyOrAccount</fullName>
+    </fields>
+    <fields>
+        <fullName>ContactGUID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact.ContactGUID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ContactGUID</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Country</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Campaign.Event__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstName</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstRespondedDate</fullName>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+    </fields>
+    <fields>
+        <fullName>HasResponded</fullName>
+    </fields>
+    <fields>
+        <fullName>IQ_Source_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>IQ Source Id</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsOwner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner__c =  $User.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IsOwner</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LastName</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lost_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Lost Details</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Member_Record__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK('/' &amp; Id , 'LINK'   , '_blank')</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Member Record</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+    </fields>
+    <fields>
+        <fullName>Objection_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Objection Code</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bad Experience with Emerald</fullName>
+                    <default>false</default>
+                    <label>Bad Experience with Emerald</label>
+                </value>
+                <value>
+                    <fullName>Business Conflict</fullName>
+                    <default>false</default>
+                    <label>Business Conflict</label>
+                </value>
+                <value>
+                    <fullName>Company Out of Business</fullName>
+                    <default>false</default>
+                    <label>Company Out of Business</label>
+                </value>
+                <value>
+                    <fullName>Content not as good as in the past</fullName>
+                    <default>false</default>
+                    <label>Content not as good as in the past</label>
+                </value>
+                <value>
+                    <fullName>Content not relevant</fullName>
+                    <default>false</default>
+                    <label>Content not relevant</label>
+                </value>
+                <value>
+                    <fullName>Cost/Budget</fullName>
+                    <default>false</default>
+                    <label>Cost/Budget</label>
+                </value>
+                <value>
+                    <fullName>COVID - Health Concerns</fullName>
+                    <default>false</default>
+                    <label>COVID - Health Concerns</label>
+                </value>
+                <value>
+                    <fullName>COVID - No Budget</fullName>
+                    <default>false</default>
+                    <label>COVID - No Budget</label>
+                </value>
+                <value>
+                    <fullName>COVID - Travel Restrictions</fullName>
+                    <default>false</default>
+                    <label>COVID - Travel Restrictions</label>
+                </value>
+                <value>
+                    <fullName>Exhibitors / Suppliers not relevant</fullName>
+                    <default>false</default>
+                    <label>Exhibitors / Suppliers not relevant</label>
+                </value>
+                <value>
+                    <fullName>Hung Up</fullName>
+                    <default>false</default>
+                    <label>Hung Up</label>
+                </value>
+                <value>
+                    <fullName>No Longer with Company</fullName>
+                    <default>false</default>
+                    <label>No Longer with Company</label>
+                </value>
+                <value>
+                    <fullName>Not enough Exhibitors / Suppliers</fullName>
+                    <default>false</default>
+                    <label>Not enough Exhibitors / Suppliers</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Personal Issues</fullName>
+                    <default>false</default>
+                    <label>Personal Issues</label>
+                </value>
+                <value>
+                    <fullName>Prefers another Show (Indicate which show)</fullName>
+                    <default>false</default>
+                    <label>Prefers another Show (Indicate which show)</label>
+                </value>
+                <value>
+                    <fullName>Previously attended - not beneficial</fullName>
+                    <default>false</default>
+                    <label>Previously attended - not beneficial</label>
+                </value>
+                <value>
+                    <fullName>Repetitive Content</fullName>
+                    <default>false</default>
+                    <label>Repetitive Content</label>
+                </value>
+                <value>
+                    <fullName>Scheduling Conflict - Other Show</fullName>
+                    <default>false</default>
+                    <label>Scheduling Conflict - Other Show</label>
+                </value>
+                <value>
+                    <fullName>Scheduling Conflict - Personal / Religious</fullName>
+                    <default>false</default>
+                    <label>Scheduling Conflict - Personal / Religious</label>
+                </value>
+                <value>
+                    <fullName>Severe Weather, Geo-Political, Unrest, etc.</fullName>
+                    <default>false</default>
+                    <label>Severe Weather, Geo-Political, Unrest, etc.</label>
+                </value>
+                <value>
+                    <fullName>Timing Issue (Does not meet buying cycle)</fullName>
+                    <default>false</default>
+                    <label>Timing Issue (Does not meet buying cycle)</label>
+                </value>
+                <value>
+                    <fullName>Unable to Reach</fullName>
+                    <default>false</default>
+                    <label>Unable to Reach</label>
+                </value>
+                <value>
+                    <fullName>Undesirable Location (City/Venue)</fullName>
+                    <default>false</default>
+                    <label>Undesirable Location (City/Venue)</label>
+                </value>
+                <value>
+                    <fullName>Visa denied</fullName>
+                    <default>false</default>
+                    <label>Visa denied</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Campaign_Members</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PURL__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+OR(
+ ISBLANK( ContactGUID__c ),
+ ISBLANK( Registered_Event_Code__c ),
+ ISBLANK( Promo_Code__c ),
+ CONTAINS(Promo_Code__c  , "Duplicate") 
+),
+Null,
+$CustomMetadata.EE_PURL__mdt.http_registration_experientevent_com_s.PURL1__c &amp; Registered_Event_Code__c &amp; $CustomMetadata.EE_PURL__mdt.cg.MasterLabel &amp; ContactGUID__c &amp; $CustomMetadata.EE_PURL__mdt.marketingcode.MasterLabel &amp; Promo_Code__c
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PURL</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>PostalCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Promo_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Promo Code</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Registered_Event_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>Campaign.Event__r.Registration_Event_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Registered Event Code</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Registration_Promo_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Registration Promo Code</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Salutation</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>State</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>DO NOT USE</description>
+        <externalId>false</externalId>
+        <label>Emerald Status (DO NOT USE)</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Clicks</fullName>
+                    <default>false</default>
+                    <label>Clicks</label>
+                </value>
+                <value>
+                    <fullName>Delivered</fullName>
+                    <default>false</default>
+                    <label>Delivered</label>
+                </value>
+                <value>
+                    <fullName>Distinct Click</fullName>
+                    <default>false</default>
+                    <label>Distinct Click</label>
+                </value>
+                <value>
+                    <fullName>Distinct Open</fullName>
+                    <default>false</default>
+                    <label>Distinct Open</label>
+                </value>
+                <value>
+                    <fullName>Opened</fullName>
+                    <default>false</default>
+                    <label>Opened</label>
+                </value>
+                <value>
+                    <fullName>Optout</fullName>
+                    <default>false</default>
+                    <label>Optout</label>
+                </value>
+                <value>
+                    <fullName>Not Emailable</fullName>
+                    <default>false</default>
+                    <label>Not Emailable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Street</fullName>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+    </fields>
+    <sharingModel>ControlledByCampaign</sharingModel>
+    <validationRules>
+        <fullName>Lost_Detailed_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+OR(
+IsPickval( Objection_Code__c, 'Other'),
+IsPickval( Objection_Code__c, 'Prefers another Show (Indicate which show)')),
+(ISBLANK(Lost_Details__c)))
+&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Lost_Details__c</errorDisplayField>
+        <errorMessage>Please provide additional details</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ObjectionCodeRequired</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+IsPickval( Status , 'Not Interested'),
+(ISBLANK(Text( Objection_Code__c ))))
+&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Objection_Code__c</errorDisplayField>
+        <errorMessage>Objection Code is required.</errorMessage>
+    </validationRules>
+</CustomObject>

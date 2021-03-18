@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NY_NOW</letterhead>
+    <name>Accent on Design - Acceptance</name>
+    <style>freeForm</style>
+    <subject>Accent on Design Jury Feedback - Congratulations: {!Account.Name}</subject>
+    <textOnly>{!Account.Name}
+
+Dear {!Contact.FirstName},
+
+We&apos;re thrilled to inform you that the selection committee has recommended your line for Accent on Design® at NY NOW®. Congratulations!
+
+We will dedicate all efforts on accommodating your company as quickly as possible. The dates for the upcoming market are Sunday, February 3rd - Wednesday, February 6th (3PM close). 
+
+Once assigned the selection committee will continue to review your presentation each market to ensure that both your line and display continue to evolve according to jury criteria.  Additionally, all new assignments are on a one-time basis pending further review by the selection committee onsite. 
+
+To expedite your placement please let us know your desired booth size (i.e. 120 sq. ft., 250 sq. ft. 400 sq. ft., etc.).  Smaller spaces are available, but on a limited basis.  
+
+Booths in Accent on Design are equipped with a comprehensive booth package ($57.05/sq. ft.) including:
+
+   *8&apos; tall white poplar wood panels (w/ 6&quot; white wooden header)
+   *Light bar with halogen fixtures
+   *Carpet
+   *Booth sign
+   *Chair and wastebasket (upon request)
+   *Drayage (excluding small package and loose shipments)
+   *Directory listing​
+
+NOTE:  If you are unable to participate in Accent on Design this winter you&apos;ll be asked to submit updated information for review by the selection committee.  
+
+If you have any questions please contact us.  We look forward to welcoming you to Accent on Design!
+
+Kind regards,   
+ 
+Emma Smith | Sales Director | 914-421-3226  
+Jaime Sikorjak | Sales Manager |914-421-3289
+Andrea Colagiovanni | Sales Representative | 914-421-3280</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

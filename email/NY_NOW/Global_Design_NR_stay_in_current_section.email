@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div><span style="font-size: 12pt;">{!Account.Name}</span></div><div><span style="font-size: 12pt;"><br></span></div><div><font face="arial" style="font-size: 12pt;">Dear&nbsp;</font><font face="arial">{!Contact.FirstName},</font></div>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<div><font face="arial">We would like to thank you for your recent submission to the Handmade®&nbsp;section at&nbsp;NY NOW®.</font></div><div><font face="arial"><br></font></div><div><font face="arial">The Handmade Selection Committee has reviewed all submissions. After careful consideration they determined that although your line is a great addition to NY NOW, Handmade is not the best fit based on the current needs of the section and criteria the committee is seeking to promote.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Please be assured that this decision is not a negative reflection on the quality of your merchandise. It is rather an assessment of whether the line presently matches the needs and design criteria of Handmade. As Handmade is juried by an outside Selection Committee, the results cannot be overridden.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Based on your jury results, it was suggested that you remain in XXXXX. &nbsp;Please contact your sales team if you would like to explore alternate options for your line. &nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">On behalf of the Handmade Selection Committee, we wish you continued success.</font></div><div><font face="arial"><br></font></div><div><font face="arial">Sincerely, &nbsp;</font></div><div><font face="arial">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></div><div>NY NOW</div><div><br></div><div><div>Allison Garafalo | Sales Director | 914-421-3212</div><div>Ashley Ciofrone | Sales Manager | 914-421-3310</div></div><div>Andrea Colagiovanni | Sales Rep| 914-421-3280</div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

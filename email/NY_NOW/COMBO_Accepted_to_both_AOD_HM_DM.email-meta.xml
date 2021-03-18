@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NY_NOW</letterhead>
+    <name>COMBO – Accepted to both AOD &amp; HM/DM</name>
+    <style>formalLetter</style>
+    <subject>Handmade &amp; Accent on Design Jury Feedback - {!Account.Name}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+{!Account.Name}
+Thank you for your recent submission to Accent on Design® and Handmade® Designer Maker at NY NOW®. 
+
+We are thrilled to inform you that after reviewing your application, the selection committees have recommended your company for both sections. Congratulations!
+
+We will dedicate all efforts on accommodating your company as quickly as possible. The dates for the upcoming market are as follows: overall dates are February 3rd - 7th with the Accent on Design and Handmade Designer Maker sections opening Sunday, February 3rd and closing on Wednesday, February 6th at 3PM. 
+
+Please keep in mind the respective selection committee will continue to review your line and presentation each market to ensure it evolves according to jury criteria.  Assignments are made on a one-time basis pending further review onsite.
+
+To expedite your placement please let us know your preferred placement (Accent on Design or Handmade Designer Maker) and booth size (i.e. 100 sq. ft., 150 sq. ft., 200 sq. ft., etc.).  Keep in mind that corners are limited. 
+
+We look forward to welcoming you to NY NOW!  In the meantime, if you have any questions please let us know. 
+
+Kind regards,
+
+Andrea Colagiovanni
+
+Sales Representative
+
+914-421-3280
+
+Andrea.colagiovanni@nynow.com
+
+
+Cc: 
+
+Allison Garafalo | Sales Director - HANDMADE
+Ashley Ciofrone | Sales Manager - HANDMADE
+Emma Smith | Sales Director - HOME
+Jaime Sikorjak  | Sales Manager - ACCENT ON DESIGN</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

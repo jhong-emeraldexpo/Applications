@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><MatchingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <matchingRules>
+        <fullName>Contact_Last_Name</fullName>
+        <label>Contact Last Name</label>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>LastName</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <ruleStatus>Inactive</ruleStatus>
+    </matchingRules>
+    <matchingRules>
+        <fullName>Contact_Last_Name_Fuzzy</fullName>
+        <label>Contact Last Name Fuzzy</label>
+        <matchingRuleItems>
+            <blankValueBehavior>MatchBlanks</blankValueBehavior>
+            <fieldName>LastName</fieldName>
+            <matchingMethod>LastName</matchingMethod>
+        </matchingRuleItems>
+        <ruleStatus>Inactive</ruleStatus>
+    </matchingRules>
+    <matchingRules>
+        <fullName>Emerald_Contact_Match</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <label>Emerald Contact Match</label>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>LastName</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>Email</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <ruleStatus>Active</ruleStatus>
+    </matchingRules>
+</MatchingRules>

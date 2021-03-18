@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emerald_Letterhead</letterhead>
+    <name>Email Notification for Account Owner Change</name>
+    <style>freeForm</style>
+    <subject>Account Ownership Change Notification</subject>
+    <textOnly>Hi {!AccountOwners__c.Previous_Owner__c},
+Account Ownership on {!AccountOwners__c.Account__c}  is changed to {!AccountOwners__c.AccountOwner__c} for {!AccountOwners__c.Show__c} show and {!AccountOwners__c.SubShow__c} SubShow by {!AccountOwners__c.LastModifiedBy} .
+
+
+Link to Account Owner record: {!AccountOwners__c.Link}.
+
+Thank you.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

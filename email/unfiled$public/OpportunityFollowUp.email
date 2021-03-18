@@ -1,0 +1,9 @@
+*** NO ACTIVITY ON OPPORTUNITY *** 
+
+There is no activity on following  Opportunity since {!Opportunity.LastOpptyChangedDays__c}  days.
+
+Opportunity Name:{!Opportunity.Name}
+
+Click on the link to access the Opportunity directly: {!Opportunity.Link}
+
+Thank you.

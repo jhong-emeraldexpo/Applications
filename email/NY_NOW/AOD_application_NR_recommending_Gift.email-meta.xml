@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NY_NOW</letterhead>
+    <name>AOD – application NR, recommending Gift</name>
+    <style>formalLetter</style>
+    <subject>Accent on Design Jury Feedback - {!Account.Name}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Thank you for your recent submission to Accent on Design® at NY NOW®. 
+
+The Accent on Design selection committee has reviewed all submissions.  After careful consideration they determined that although your line will be a great addition to NY NOW, Accent on Design is not the best placement for your line.
+
+Please be assured that this decision is not a negative reflection on the quality of your merchandise.  It is rather an assessment of whether the line presently matches the design criteria of Accent on Design. Although we oversee Accent on Design, as it is juried by an independent committee, the results cannot be overridden. 
+
+The committee recommended your line for placement in the Gift section.  You will be contacted in the coming weeks regarding an assignment within Gift.  In the meantime, if you have any questions please contact Justine Denich or Stephanie Gaspari (copied on this email). 
+
+We look forward to seeing you at NY NOW this February. 
+
+
+Sincerely,     
+
+Emma Smith | Sales Director | 914-421-3226
+Jaime Sikorjak | Sales Manager |914-421-3289
+Andrea Colagiovanni | Sales Representative | 914-421-3280</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

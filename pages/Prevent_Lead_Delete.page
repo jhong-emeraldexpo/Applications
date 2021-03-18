@@ -1,0 +1,10 @@
+<apex:page action="{!if($User.ProfileId!='00eo0000000xZ0DAAU' &&
+$User.ProfileId!='00eo00000013hs4AAA',null,
+urlFor($Action.Lead.Delete, $CurrentPage.Parameters.id,
+[retURL='/00Q'], true))}" standardController="Lead">
+<apex:pageBlock >
+<apex:PageMessage summary="You are not allowed to delete Leads"
+severity="Warning" strength="3"/>
+<apex:pageMessages />
+</apex:pageBlock>
+</apex:page>

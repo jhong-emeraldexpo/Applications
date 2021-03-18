@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NY_NOW</letterhead>
+    <name>Designer Maker - NR, stay in current section</name>
+    <style>formalLetter</style>
+    <subject>Designer Maker Jury Feedback - {!Account.Name}</subject>
+    <textOnly>{!Account.Name}
+
+Dear {!Contact.FirstName},
+We would like to thank you for your recent submission to the Handmade® section at NY NOW®.
+
+The Handmade Selection Committee has reviewed all submissions. After careful consideration they determined that although your line is a great addition to NY NOW, Handmade is not the best fit based on the current needs of the section and criteria the committee is seeking to promote.
+
+Please be assured that this decision is not a negative reflection on the quality of your merchandise. It is rather an assessment of whether the line presently matches the needs and design criteria of Handmade. As Handmade is juried by an outside Selection Committee, the results cannot be overridden.
+
+Based on your jury results, it was suggested that you remain in XXXXX.  Please contact your sales team if you would like to explore alternate options for your line.
+
+On behalf of the Handmade Selection Committee, we wish you continued success.
+
+Sincerely,
+Ashley Ciofrone | Sales Manager | 914-421-3310
+Allison Garafalo | Sales Director | 914-421-3212</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

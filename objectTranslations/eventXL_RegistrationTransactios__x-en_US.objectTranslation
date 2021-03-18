@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RegistrationTransaction</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RegistrationTransaction</value>
+    </caseValues>
+    <fields>
+        <label><!-- CompanyId --></label>
+        <name>CompanyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactId --></label>
+        <name>ContactId__c</name>
+        <relationshipLabel><!-- RegistrationTransaction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ContactMasterKey --></label>
+        <name>ContactMasterKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactRegistrationId --></label>
+        <name>ContactRegistrationId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactTransactionId --></label>
+        <name>ContactTransactionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatedDate --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>Event__c</name>
+        <relationshipLabel><!-- RegistrationTransaction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ExternalID --></label>
+        <name>ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVerified --></label>
+        <name>IsVerified__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVoided --></label>
+        <name>IsVoided__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastModifiedDate --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- OriginalAmount --></label>
+        <name>OriginalAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductMasterKey --></label>
+        <name>ProductMasterKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- PromoCodeId --></label>
+        <name>PromoCodeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- PromoCode --></label>
+        <name>PromoCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- RegistrationKey --></label>
+        <name>RegistrationKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDCContactID --></label>
+        <name>SFDCContactID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDCRegistrationId --></label>
+        <name>SFDCRegistrationId__c</name>
+        <relationshipLabel><!-- RegistrationTransaction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SourceKey --></label>
+        <name>SourceKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaxTotalAmount --></label>
+        <name>TaxTotalAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaxableAmount --></label>
+        <name>TaxableAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalAmount --></label>
+        <name>TotalAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- TransInsertDate --></label>
+        <name>TransInsertDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- TransUpdateDate --></label>
+        <name>TransUpdateDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- TransactionTypeCode --></label>
+        <name>TransactionTypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- UnitAmount --></label>
+        <name>UnitAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- VerifyCode --></label>
+        <name>VerifyCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- VerifyDate --></label>
+        <name>VerifyDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- VoidDate --></label>
+        <name>VoidDate__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

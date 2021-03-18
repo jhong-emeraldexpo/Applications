@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>sales@nynow.com</email>
+    <name>NY NOW</name>
+    <queueMembers>
+        <roleAndSubordinates>
+            <roleAndSubordinate>NY_NOW_Account_Executives</roleAndSubordinate>
+            <roleAndSubordinate>NY_NOW_Sales_Management</roleAndSubordinate>
+            <roleAndSubordinate>NY_NOW_Show_Management</roleAndSubordinate>
+        </roleAndSubordinates>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

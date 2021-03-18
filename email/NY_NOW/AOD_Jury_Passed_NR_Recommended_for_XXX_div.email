@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!Account.Name}<br><br>Dear&nbsp;</font><font face="arial">{!Contact.FirstName},</font>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<div><font face="arial">Thank you for your recent submission to Accent on Design® at NY NOW®.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Our deadline to receive applications for the&nbsp;summer market has passed and we are no longer reviewing&nbsp;materials with the Selection Committee at this time.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Having said that, the NY NOW team has reviewed your application and determined that your products would be best suited positioned within the XXXXX section.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">You will be contacted shortly regarding booth availability for the summer market. In the meantime, if you have any questions regarding placement you may contact XXXX or XXXX (copied on this email).</font></div><div><font face="arial"><br></font></div><div><font face="arial">We wish you the utmost success and look forward to seeing you in August.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial"><br></font></div><div><font face="arial">Kind regards,&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Jaime Sikorjak</font></div><div><font face="arial">Sales Manager</font></div><div><font face="arial">914-421-3289&nbsp;</font></div><div><font face="arial">jaime.sikorjak@nynow.com</font></div><div><font face="arial"><br></font></div><div><font face="arial">Andrea Colagiovanni</font></div><div><font face="arial">Sales Representative</font></div><div><font face="arial">914-421-3280</font></div><div><font face="arial">Andrea.colagiovanni</font><a></a><font face="arial"><a>@nynow.com</a></font></div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

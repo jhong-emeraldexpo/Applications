@@ -1,0 +1,54 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<br><br><br><br><br><table style="font-family: 'Times New Roman'; width: 500px;" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><strong><em>{!User.Name}</em></strong><br>{!User.Title}<br>{!User.Phone}|Fax: {!User.Fax}<br>{!User.Email}<br></td></tr><tr><td><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><img alt="" src="https://c.na17.content.force.com/servlet/servlet.ImageServer?id=015o0000001Zyes&amp;oid=00Do0000000bvSI" align="left" border="0"><br><br><p>&nbsp;</p></td></tr><tr><td><span style="font-family: 'Times New Roman', serif; font-size: 16px; line-height: 17.1200008392334px; background-color: rgb(255, 255, 255);"><strong>Confidentiality Notice</strong>:
+ the information contained in this email and any attachments is 
+confidential and may be legally privileged. If you are not an intended 
+recipient, you are hereby notified that any dissemination, distribution,
+ or copying of this e-mail is strictly prohibited. If you have received 
+this e-mail in error, please notify the sender and permanently delete 
+the e-mail and any attachments immediately. You should not retain, copy 
+or use this e-mail or any attachments for any purpose, nor disclose all 
+or any part of the contents to any other person.&nbsp;</span></td></tr></tbody></table><br>]]></td>
+</tr>
+</table>

@@ -1,0 +1,47 @@
+<apex:page standardController="Opportunity" sidebar="false" showHeader="false" extensions="OptyShowAccountContactsController">
+   
+    <apex:form >
+        <!-- actionFunction is for calling controller's method -->
+        <apex:actionFunction action="{!doQuery}" name="apexDoQuery" reRender="myData"/>
+            
+        
+        <!-- my Page Block -->
+        <apex:pageBlock id="myData">
+            
+            
+            <apex:pageblockTable value="{!showAccountContacts}" var="con"> <!-- con in myContactList -->
+              
+        <!--      <apex:pageMessages ></apex:pageMessages> -->
+                      
+                <apex:column headerValue="Contact">
+                    <apex:outputfield value="{!con.Contact__r.Name}"  />
+                 
+                </apex:column>  
+                <apex:column headerValue="Show" >
+                    <apex:outputField value="{!con.Show__r.Name}"/>
+                </apex:column> 
+                 <apex:column headerValue="Contact Roles" >
+                    <apex:outputField value="{!con.ContactRoles__c}"/>
+                </apex:column> 
+                <apex:column headerValue="Contact email" >
+                    <apex:outputText value="{!con.Contact__r.email}"/>
+                </apex:column> 
+                
+                <apex:column headerValue="Contact Phone" >
+                    <apex:outputField value="{!con.Contact__r.Phone}"/>
+                </apex:column> 
+                
+                <apex:column headerValue="Contact Phone Ext" >
+                    <apex:outputField value="{!con.Contact__r.Phone_Ext__c}"/>
+                </apex:column>
+                
+            </apex:pageblockTable>
+        </apex:pageBlock>
+        
+    </apex:form>
+    
+    <style>
+        .filterDiv{ padding: 10px; }
+        label{ padding: 2px; }
+    </style>
+</apex:page>

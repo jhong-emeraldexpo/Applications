@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NY_NOW</letterhead>
+    <name>Designer Maker - Hardcopy Application Still Outstanding</name>
+    <style>freeForm</style>
+    <subject>Designer Maker Application - Action Required_{!Account.Name}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+We have yet to receive the supporting materials for your application to Handmade® Designer Maker.  Please note we will be unable to review your application with the selection committee after the March 30th deadline.
+
+As a reminder, the selection committee requires that you mail the following materials to be received in our office to support your online application:We ask that you send the following materials for review:
+
+• Designer bio/company statement​
+
+• Specific information on where, by whom and how products are designed and made
+
+• Catalog/brochure with wholesale pricing
+
+• Booth display photo/rendering
+
+• Sample list of customers
+
+All applications should be mailed to the following address:
+
+Emerald Expositions
+ATTN: Designer Maker
+1133 Westchester Avenue, Suite N210
+White Plains, NY 10604-3547
+
+Should you have any further questions, please feel free to contact us. Otherwise, we look forward to receiving your application!
+​
+Sincerely,
+
+NY NOW
+
+
+Allison Garafalo | Sales Director | 914-421-3212
+Ashley Ciofrone | Sales Manager | 914-421-3310</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

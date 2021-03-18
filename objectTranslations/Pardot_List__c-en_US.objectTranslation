@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pardot List</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pardot List</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- List ID --></label>
+        <name>F_ListId__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCrmVisible --></label>
+        <name>IsCrmVisible__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsDeleted --></label>
+        <name>IsDeleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsDynamic --></label>
+        <name>IsDynamic__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsPublic --></label>
+        <name>IsPublic__c</name>
+    </fields>
+    <fields>
+        <label><!-- ListId --></label>
+        <name>ListId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <layouts>
+        <layout>Pardot_List Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pardot_List Layout-Lightning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,2833 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Convert</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Convert</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Convert</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FindDup</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FindDup</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FindDup</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lead_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Lead_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>EE_Lead_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>EE_Lead_Compact</fullName>
+        <fields>Name</fields>
+        <fields>EE_Record_Type__c</fields>
+        <fields>Company</fields>
+        <fields>Phone</fields>
+        <fields>Email</fields>
+        <label>EE_Lead_Compact</label>
+    </compactLayouts>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fields>
+        <fullName>AccountNameFirstChar__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+BEGINS(upper(Company), "THE "),
+Upper(RIGHT(LEFT(Company,5),1)),
+Upper(LEFT(Company,1))
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Name First Char</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Match to Existing Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Leads</relationshipLabel>
+        <relationshipName>Leads</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Address</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenue</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AutoConvert__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>AutoConvert</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillingCountryandStateCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>(BLANKVALUE(TEXT(CountryCode),'') + IF( ISPICKVAL(StateCode , ''), '', '-') +BLANKVALUE(TEXT(StateCode),''))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>BillingCountryandStateCode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Country_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE( NULLVALUE(TEXT(CountryCode),'NULL'),'NULL')</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Billing Country Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_State_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE( NULLVALUE(TEXT(StateCode),'NULL'),'NULL')</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Billing State Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booth_Application_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Booth Application Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Booth_Image__c</fullName>
+        <externalId>false</externalId>
+        <label>Booth Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Booth_Requests__c</fullName>
+        <externalId>false</externalId>
+        <label>Booth Location &amp; Special Requests</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Brand__c</fullName>
+        <externalId>false</externalId>
+        <formula>LeadToEvent__r.Show__r.Brand__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Brand</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Company</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Match to Existing Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Leads</relationshipLabel>
+        <relationshipName>Leads</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DBA2__c</fullName>
+        <externalId>false</externalId>
+        <label>Exhibit As / Directory Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DM_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>DM_ID</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Disposition__c</fullName>
+        <externalId>false</externalId>
+        <label>Disposition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bad data</fullName>
+                    <default>false</default>
+                    <label>Bad data</label>
+                </value>
+                <value>
+                    <fullName>Bad Experience with Emerald</fullName>
+                    <default>false</default>
+                    <label>Bad Experience with Emerald</label>
+                </value>
+                <value>
+                    <fullName>Business Conflict</fullName>
+                    <default>false</default>
+                    <label>Business Conflict</label>
+                </value>
+                <value>
+                    <fullName>Company Out of Business</fullName>
+                    <default>false</default>
+                    <label>Company Out of Business</label>
+                </value>
+                <value>
+                    <fullName>Content not as good as in the past</fullName>
+                    <default>false</default>
+                    <label>Content not as good as in the past</label>
+                </value>
+                <value>
+                    <fullName>Content not relevant</fullName>
+                    <default>false</default>
+                    <label>Content not relevant</label>
+                </value>
+                <value>
+                    <fullName>Cost</fullName>
+                    <default>false</default>
+                    <label>Cost</label>
+                </value>
+                <value>
+                    <fullName>COVID- Health Concerns</fullName>
+                    <default>false</default>
+                    <label>COVID- Health Concerns</label>
+                </value>
+                <value>
+                    <fullName>COVID- No Budget</fullName>
+                    <default>false</default>
+                    <label>COVID- No Budget</label>
+                </value>
+                <value>
+                    <fullName>COVID- Travel Restrictions</fullName>
+                    <default>false</default>
+                    <label>COVID- Travel Restrictions</label>
+                </value>
+                <value>
+                    <fullName>Customer prefers another Emerald Show</fullName>
+                    <default>false</default>
+                    <label>Customer prefers another Emerald Show</label>
+                </value>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <default>false</default>
+                    <label>Duplicate</label>
+                </value>
+                <value>
+                    <fullName>Exhibit at Other Show(s) Only</fullName>
+                    <default>false</default>
+                    <label>Exhibit at Other Show(s) Only</label>
+                </value>
+                <value>
+                    <fullName>Exhibitors / Suppliers not relevant</fullName>
+                    <default>false</default>
+                    <label>Exhibitors / Suppliers not relevant</label>
+                </value>
+                <value>
+                    <fullName>Hung Up</fullName>
+                    <default>false</default>
+                    <label>Hung Up</label>
+                </value>
+                <value>
+                    <fullName>No authority</fullName>
+                    <default>false</default>
+                    <label>No authority</label>
+                </value>
+                <value>
+                    <fullName>No budget</fullName>
+                    <default>false</default>
+                    <label>No budget</label>
+                </value>
+                <value>
+                    <fullName>No interest</fullName>
+                    <default>false</default>
+                    <label>No interest</label>
+                </value>
+                <value>
+                    <fullName>No Longer with Company</fullName>
+                    <default>false</default>
+                    <label>No Longer with Company</label>
+                </value>
+                <value>
+                    <fullName>Not a fit</fullName>
+                    <default>false</default>
+                    <label>Not a fit</label>
+                </value>
+                <value>
+                    <fullName>Not enough Exhibitors / Suppliers</fullName>
+                    <default>false</default>
+                    <label>Not enough Exhibitors / Suppliers</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Personal Issues</fullName>
+                    <default>false</default>
+                    <label>Personal Issues</label>
+                </value>
+                <value>
+                    <fullName>Prefers another Show (Indicate which show)</fullName>
+                    <default>false</default>
+                    <label>Prefers another Show (Indicate which show)</label>
+                </value>
+                <value>
+                    <fullName>Previously attended - not beneficial</fullName>
+                    <default>false</default>
+                    <label>Previously attended - not beneficial</label>
+                </value>
+                <value>
+                    <fullName>Repetitive Content</fullName>
+                    <default>false</default>
+                    <label>Repetitive Content</label>
+                </value>
+                <value>
+                    <fullName>Scheduling Conflict - Other Show</fullName>
+                    <default>false</default>
+                    <label>Scheduling Conflict - Other Show</label>
+                </value>
+                <value>
+                    <fullName>Scheduling Conflict - Personal / Religious</fullName>
+                    <default>false</default>
+                    <label>Scheduling Conflict - Personal / Religious</label>
+                </value>
+                <value>
+                    <fullName>Severe Weather, Geo-Political, Unrest, etc.</fullName>
+                    <default>false</default>
+                    <label>Severe Weather, Geo-Political, Unrest, etc.</label>
+                </value>
+                <value>
+                    <fullName>Timing Issue (Does not meet buying cycle)</fullName>
+                    <default>false</default>
+                    <label>Timing Issue (Does not meet buying cycle)</label>
+                </value>
+                <value>
+                    <fullName>Unable to reach</fullName>
+                    <default>false</default>
+                    <label>Unable to reach</label>
+                </value>
+                <value>
+                    <fullName>Undesirable Location (City/Venue)</fullName>
+                    <default>false</default>
+                    <label>Undesirable Location (City/Venue)</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Bad data</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Company Out of Business</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Cost</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>COVID- Health Concerns</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>COVID- No Budget</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>COVID- Travel Restrictions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Customer prefers another Emerald Show</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Duplicate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <valueName>Exhibit at Other Show(s) Only</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>No authority</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>No budget</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>No interest</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>No Longer with Company</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <valueName>Not a fit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Personal Issues</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Prefers another Show (Indicate which show)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Scheduling Conflict - Other Show</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Scheduling Conflict - Personal / Religious</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Severe Weather, Geo-Political, Unrest, etc.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Timing Issue (Does not meet buying cycle)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Unable to reach</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Booth</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>List rental</controllingFieldValue>
+                <controllingFieldValue>Digital</controllingFieldValue>
+                <controllingFieldValue>Print</controllingFieldValue>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Undesirable Location (City/Venue)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Bad Experience with Emerald</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Business Conflict</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Content not as good as in the past</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Content not relevant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Exhibitors / Suppliers not relevant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Hung Up</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Not enough Exhibitors / Suppliers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Previously attended - not beneficial</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Registration</controllingFieldValue>
+                <controllingFieldValue>Conference Registration</controllingFieldValue>
+                <controllingFieldValue>Speaker</controllingFieldValue>
+                <valueName>Repetitive Content</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EE_Campaign__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Primary Campaign</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Campaign.Event__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Event__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>Campaign.Product__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Product__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Leads</relationshipLabel>
+        <relationshipName>Leads</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>EE_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TEXT(Product__c)= $CustomMetadata.Product__mdt.VIP_Registration.MasterLabel, $CustomMetadata.EE_Record_Type__mdt.Attendee.DeveloperName,  
+IF( TEXT(Product__c)=  $CustomMetadata.Product__mdt.Conference_Registration.MasterLabel, $CustomMetadata.EE_Record_Type__mdt.Attendee.DeveloperName,  
+IF(TEXT(Product__c)=$CustomMetadata.Product__mdt.Speaker.MasterLabel, $CustomMetadata.EE_Record_Type__mdt.Attendee.DeveloperName, $CustomMetadata.EE_Record_Type__mdt.Exhibitor.DeveloperName
+)
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>EE Record Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <inlineHelpText>Required field for Lead Conversion</inlineHelpText>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EventCodeLastChars__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+CONTAINS(pi_ee_Event_Code1__c, "SB"), 
+RIGHT(pi_ee_Event_Code1__c,2),'')</formula>
+        <label>EventCodeLastChars</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Booth_Last_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>LeadToEvent__r.Booth_Last_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Booth Last Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Event_Non_Booth_Last_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>LeadToEvent__r.Non_Booth_Last_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Non-Booth Last Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Required field for Lead Conversion</inlineHelpText>
+        <label>Targeted Event</label>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Leads (Event)</relationshipLabel>
+        <relationshipName>Lead_Event</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Forecast_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Forecast Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Forecast_NSF__c</fullName>
+        <externalId>false</externalId>
+        <label>Forecast NSF</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Home_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Home Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>IQ_Source_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>IQ Source Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ignore_Contact_Duplicate_Error_F__c</fullName>
+        <externalId>false</externalId>
+        <formula>Ignore_Duplicate_Error__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ignore Contact Duplicate Error Formula</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ignore_Duplicate_Error__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Ignore Duplicate Error</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IndividualId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Industry</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LastLeadStatusChanged_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>LastLeadStatusChanged Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastTransferDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <inlineHelpText>Required field for Lead Conversion</inlineHelpText>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>LeadToEvent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Event</label>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Leads</relationshipLabel>
+        <relationshipName>Leads</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Old_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Old Status</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Status_Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>ROUND(
+MOD(
+(now()-LastModifiedDate)*1440,60),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Status Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <externalId>false</externalId>
+        <formula>LeadToEvent__r.Show__r.Market__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Match_Account_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Match Account ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Matched_Contact_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Matched Contact ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>NumberOfEmployees</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Other_Disposition__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Disposition</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <inlineHelpText>Required field for Lead Conversion</inlineHelpText>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Phone_Office__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone(Office)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Product_Image_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Image 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Product_Image_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Image 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Product_Image_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Image 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Product_Image_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Image 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Required field for Lead Conversion</inlineHelpText>
+        <label>Product</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Booth</fullName>
+                    <default>false</default>
+                    <label>Booth</label>
+                </value>
+                <value>
+                    <fullName>Sponsorship</fullName>
+                    <default>false</default>
+                    <label>Sponsorship</label>
+                </value>
+                <value>
+                    <fullName>List rental</fullName>
+                    <default>false</default>
+                    <label>List rental</label>
+                </value>
+                <value>
+                    <fullName>Digital</fullName>
+                    <default>false</default>
+                    <label>Digital</label>
+                </value>
+                <value>
+                    <fullName>Print</fullName>
+                    <default>false</default>
+                    <label>Print</label>
+                </value>
+                <value>
+                    <fullName>VIP Registration</fullName>
+                    <default>false</default>
+                    <label>VIP Registration</label>
+                </value>
+                <value>
+                    <fullName>Conference Registration</fullName>
+                    <default>false</default>
+                    <label>Conference Registration</label>
+                </value>
+                <value>
+                    <fullName>Speaker</fullName>
+                    <default>false</default>
+                    <label>Speaker</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Province__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field if State/Province is not available for this particular country.</inlineHelpText>
+        <label>Province/Region 2</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rating</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Ref__c</fullName>
+        <description>Whoid Reference of the Lead (00Q) or Contact (003)</description>
+        <externalId>false</externalId>
+        <label>WhoID Ref</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Advertising contact</fullName>
+                    <default>false</default>
+                    <label>Advertising contact</label>
+                </value>
+                <value>
+                    <fullName>Agency</fullName>
+                    <default>false</default>
+                    <label>Agency</label>
+                </value>
+                <value>
+                    <fullName>Billing Contact</fullName>
+                    <default>false</default>
+                    <label>Billing Contact</label>
+                </value>
+                <value>
+                    <fullName>Contract Contact</fullName>
+                    <default>false</default>
+                    <label>Contract Contact</label>
+                </value>
+                <value>
+                    <fullName>Corporate</fullName>
+                    <default>false</default>
+                    <label>Corporate</label>
+                </value>
+                <value>
+                    <fullName>Decorator</fullName>
+                    <default>false</default>
+                    <label>Decorator</label>
+                </value>
+                <value>
+                    <fullName>Directory contact</fullName>
+                    <default>false</default>
+                    <label>Directory contact</label>
+                </value>
+                <value>
+                    <fullName>Distributor Representative</fullName>
+                    <default>false</default>
+                    <label>Distributor Representative</label>
+                </value>
+                <value>
+                    <fullName>Exhibitor kit recipient</fullName>
+                    <default>false</default>
+                    <label>Exhibitor kit recipient</label>
+                </value>
+                <value>
+                    <fullName>Only contact</fullName>
+                    <default>false</default>
+                    <label>Only contact</label>
+                </value>
+                <value>
+                    <fullName>Onsite contact</fullName>
+                    <default>false</default>
+                    <label>Onsite contact</label>
+                </value>
+                <value>
+                    <fullName>Sales Contact</fullName>
+                    <default>false</default>
+                    <label>Sales Contact</label>
+                </value>
+                <value>
+                    <fullName>Sponsorship contact</fullName>
+                    <default>false</default>
+                    <label>Sponsorship contact</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rule_Set__c</fullName>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE(SubExpo__r.SubShow__r.Rule_Set__c,Event__r.Show__r.Rule_Set__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Rule Set</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Segment__c</fullName>
+        <externalId>false</externalId>
+        <formula>LeadToEvent__r.SegmentTextFormula__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Show__c</fullName>
+        <externalId>false</externalId>
+        <formula>LeadToEvent__r.Show__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Show</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SkipAddressValidation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>SkipAddressValidation</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SubExpo__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Targeted SubExpo</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Event__c</field>
+                <operation>equals</operation>
+                <valueField>SubExpo__c.Event__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SubExpo__c</referenceTo>
+        <relationshipLabel>Leads</relationshipLabel>
+        <relationshipName>Leads</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Territory_Rule_ID__c</fullName>
+        <description>Territory Rule ID Applied</description>
+        <externalId>false</externalId>
+        <label>Territory Rule ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Website</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Work_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Work Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Work_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Work Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>ee_misc_questions__c</fullName>
+        <description>Questions and answers are combined into a single field.  Separated by new line</description>
+        <externalId>false</externalId>
+        <label>Misc. Questions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Campaign_Short_Desc__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign Short Desc</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_CombinedCustomFields__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>When this field is checked, we will combine Pardot Custom Field 1 and and 2 into Booth_Requests__c</description>
+        <externalId>false</externalId>
+        <label>CombinedCustomFields</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>pi_ee_CompanyDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Company Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Create_SF_Task__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Pardot Create SF Task</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>pi_ee_CriticalSucessFactor__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot objective for exhibiting</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value1</fullName>
+                    <default>false</default>
+                    <label>Value1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Event_Code1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (pi_ee_Event_Code__c &lt;&gt; '', pi_ee_Event_Code__c, 
+LEFT( 
+IF (pi_ee_Non_US_Company__c = FALSE, pi_ee_Event_Code_Product__c, 
+IF( CONTAINS (pi_ee_Event_Code_Product__c,'-VV') = TRUE, SUBSTITUTE(pi_ee_Event_Code_Product__c,'-VV','-SD'), 
+IF( CONTAINS (pi_ee_Event_Code_Product__c,'-GT') = TRUE, SUBSTITUTE(pi_ee_Event_Code_Product__c,'-GT','-SD'), 
+IF( CONTAINS (pi_ee_Event_Code_Product__c,'-SB') = TRUE, SUBSTITUTE(pi_ee_Event_Code_Product__c,'-SB','-SD'), 
+IF( CONTAINS (pi_ee_Event_Code_Product__c,'-J') = TRUE, SUBSTITUTE(pi_ee_Event_Code_Product__c,'-J','-SD'),pi_ee_Event_Code_Product__c) 
+) 
+) 
+) 
+) 
+
+, IF( AND(pi_ee_Non_US_Company__c = TRUE,CONTAINS (pi_ee_Event_Code_Product__c,'-J')) ,FIND("|", pi_ee_Event_Code_Product__c),FIND("|", pi_ee_Event_Code_Product__c)- 1) 
+) 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assigned Event Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Event_Code_Product__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Code - Product</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Event_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Event Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Exhibit_at_other_show__c</fullName>
+        <externalId>false</externalId>
+        <label>Exhibit at other show</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_FormName__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Form Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_InquiryReason__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason for your inquiry</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Intent_To_Buy__c</fullName>
+        <description>Capture Intent to Buy from Pardot</description>
+        <externalId>false</externalId>
+        <label>Intent to Buy</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Interested_Shows__c</fullName>
+        <externalId>false</externalId>
+        <label>Interested Shows</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value1</fullName>
+                    <default>false</default>
+                    <label>Value1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Interested_SubExpos__c</fullName>
+        <externalId>false</externalId>
+        <label>Interested Sub Expos</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Artisan Resource</fullName>
+                    <default>false</default>
+                    <label>Artisan Resource</label>
+                </value>
+                <value>
+                    <fullName>Distinctive Living</fullName>
+                    <default>false</default>
+                    <label>Distinctive Living</label>
+                </value>
+                <value>
+                    <fullName>HANDMADE: Handmade® Designer Maker</fullName>
+                    <default>false</default>
+                    <label>HANDMADE: Handmade® Designer Maker</label>
+                </value>
+                <value>
+                    <fullName>HANDMADE: Handmade® Global Design</fullName>
+                    <default>false</default>
+                    <label>HANDMADE: Handmade® Global Design</label>
+                </value>
+                <value>
+                    <fullName>HOME: Accent on Design®</fullName>
+                    <default>false</default>
+                    <label>HOME: Accent on Design®</label>
+                </value>
+                <value>
+                    <fullName>HOME: Home Furnishings + Textiles</fullName>
+                    <default>false</default>
+                    <label>HOME: Home Furnishings + Textiles</label>
+                </value>
+                <value>
+                    <fullName>HOME: Tabletop + Gourmet Housewares</fullName>
+                    <default>false</default>
+                    <label>HOME: Tabletop + Gourmet Housewares</label>
+                </value>
+                <value>
+                    <fullName>LIFESTYLE: Baby + Child</fullName>
+                    <default>false</default>
+                    <label>LIFESTYLE: Baby + Child</label>
+                </value>
+                <value>
+                    <fullName>LIFESTYLE: Gift</fullName>
+                    <default>false</default>
+                    <label>LIFESTYLE: Gift</label>
+                </value>
+                <value>
+                    <fullName>LIFESTYLE: Personal Accessories</fullName>
+                    <default>false</default>
+                    <label>LIFESTYLE: Personal Accessories</label>
+                </value>
+                <value>
+                    <fullName>LIFESTYLE: Personal Care + Wellness</fullName>
+                    <default>false</default>
+                    <label>LIFESTYLE: Personal Care + Wellness</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Job_Function__c</fullName>
+        <description>Capture Job Function from Pardot</description>
+        <externalId>false</externalId>
+        <label>Job Function</label>
+        <length>128</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_MainContactIsContractContact__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>MainContactIsContractContact</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Non_US_Company__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Non US Company</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Pardot_Industry__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Industry</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_PrimaryProduct__c</fullName>
+        <externalId>false</externalId>
+        <formula>Right( pi_ee_Event_Code_Product__c , 
+len(pi_ee_Event_Code_Product__c ) - FIND("|", pi_ee_Event_Code_Product__c ))</formula>
+        <label>Pardot Primary Product</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_ProductCategories_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Product Categories</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_ProductCategories__c</fullName>
+        <description>Capture Merchant Type from Pardot</description>
+        <externalId>false</externalId>
+        <label>Product Categories</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_ShowLandingPage__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Show Landing Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_ShowWebsite__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Show Website</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_SubExpoName__c</fullName>
+        <externalId>false</externalId>
+        <label>SubExpo Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_SubShowName__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Sub Show Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_TradeshowRole__c</fullName>
+        <externalId>false</externalId>
+        <label>Tradeshow Role</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_budget_decision_timing__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget Decision Timing</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_custom_question1__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Custom Question 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_custom_question2__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Custom Question 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pi_ee_custom_question3__c</fullName>
+        <description>Custom question that accepts multiple values.</description>
+        <externalId>false</externalId>
+        <label>Pardot Custom Question 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>_blank</fullName>
+                    <default>false</default>
+                    <label>_blank</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_custom_question4__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Custom Question 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>_blank</fullName>
+                    <default>false</default>
+                    <label>_blank</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pi_ee_trade_shows_I_exhibit_at__c</fullName>
+        <externalId>false</externalId>
+        <label>Pardot Trade Shows I exhibit at</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>should_Ignore_Assignment_Rule__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If check, opportunity owner won't be set by auto-assignment rule.</description>
+        <externalId>false</externalId>
+        <label>Should Ignore Assignment Rule?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>ASD_Pardot_Open_Leads_By_AE</fullName>
+        <columns>pi_ee_Event_Code1__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Other_Phone__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>pi__url__c</field>
+            <operation>greaterThan</operation>
+            <value>blank</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2020 ASD Market</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Qualified,Unqualified,Duplicate</value>
+        </filters>
+        <label>ASD Pardot Active Leads - By AE</label>
+    </listViews>
+    <listViews>
+        <fullName>Active_Attendee_Leads</fullName>
+        <columns>Event__c</columns>
+        <columns>pi_ee_Campaign_Short_Desc__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>Phone_Office__c</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Unqualified</value>
+        </filters>
+        <filters>
+            <field>EE_Record_Type__c</field>
+            <operation>equals</operation>
+            <value>Attendee</value>
+        </filters>
+        <label>Active Attendee Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_Leads</fullName>
+        <columns>Event__c</columns>
+        <columns>pi_ee_Campaign_Short_Desc__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>Phone_Office__c</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Unqualified</value>
+        </filters>
+        <label>All Active Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>BDNY_2020_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2020 Boutique Design New York</value>
+        </filters>
+        <label>BDNY 2020 Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>Fastener_2020_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2020 International Fastener Expo</value>
+        </filters>
+        <label>Fastener 2020 Leads</label>
+        <sharedTo>
+            <role>ASD_Account_Executives</role>
+            <role>All_Access</role>
+            <role>NIFMSE_Account_Executive</role>
+            <role>NIFMSE_Sales_Management</role>
+            <role>NIFMSE_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>HD_2020_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2020 HD Expo</value>
+        </filters>
+        <label>HD 2020 Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>KBIS_2021_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2021 KBIS</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filters>
+        <label>KBIS 2021 Leads</label>
+        <sharedTo>
+            <role>HD_Marketing_Coordinators</role>
+            <role>KBIS_Account_Executives</role>
+            <role>KBIS_Marketing_Coordinators</role>
+            <role>KBIS_Marketing_Management</role>
+            <role>KBIS_Sales_Management</role>
+            <role>KBIS_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>KBIS_Leads</fullName>
+        <columns>EE_Campaign__c</columns>
+        <columns>Event__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>kbis</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filters>
+        <label>KBIS Leads</label>
+        <sharedTo>
+            <role>HD_Marketing_Coordinators</role>
+            <role>KBIS_Account_Executives</role>
+            <role>KBIS_Marketing_Coordinators</role>
+            <role>KBIS_Marketing_Management</role>
+            <role>KBIS_Sales_Management</role>
+            <role>KBIS_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Open_Leads_1</fullName>
+        <columns>Event__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filters>
+        <label>My Active Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Unread_Leads_lightning</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>pi__score__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>LEAD.UNREAD</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Unread Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>NSS_Summer_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2020 National Stationery Show Summer</value>
+        </filters>
+        <label>NSS Summer Leads</label>
+        <sharedTo>
+            <role>NSS_Account_Executives</role>
+            <role>NSS_Sales_Management</role>
+            <role>NSS_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>NY_NOW_APP</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>LEAD.URL</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>pi__url__c</columns>
+        <columns>Event__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.LEAD_SOURCE</field>
+            <operation>contains</operation>
+            <value>Booth Application</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filters>
+        <filters>
+            <field>LEAD.CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>1/1/2020 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>NY NOW</value>
+        </filters>
+        <label>NY NOW Booth Application Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>NY_NOW_APPS_2017_w_o_dupes</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>pi__url__c</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.URL</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>Event__c</columns>
+        <columns>SubExpo__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>contains</operation>
+            <value>Active</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filters>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>NY NOW</value>
+        </filters>
+        <filters>
+            <field>LEAD.LEAD_SOURCE</field>
+            <operation>contains</operation>
+            <value>Inquiry Form</value>
+        </filters>
+        <label>NY NOW Inquiry Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>Pardot_Open_Leads</fullName>
+        <columns>pi_ee_Event_Code1__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Qualified</value>
+        </filters>
+        <filters>
+            <field>pi__url__c</field>
+            <operation>greaterThan</operation>
+            <value>blank</value>
+        </filters>
+        <label>Pardot Open Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>SURTEX_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>surtex</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filters>
+        <label>SURTEX Leads</label>
+        <sharedTo>
+            <role>NSS_Account_Executives</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Sheila_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>2021 International Artisan</value>
+        </filters>
+        <label>Sheila Leads 2021 Artisan</label>
+        <sharedTo>
+            <role>Pizza_Account_Executives</role>
+            <role>Pizza_Marketting_Coordinator</role>
+            <role>Pizza_Marketting_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>TodaysLeads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>SubExpo__c</columns>
+        <columns>Event__c</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today's Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>Unassigned_Leads</fullName>
+        <columns>pi_ee_Event_Code1__c</columns>
+        <columns>LeadToEvent__c</columns>
+        <columns>Event__c</columns>
+        <columns>SubExpo__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>dmigr</value>
+        </filters>
+        <label>Unassigned Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>Unassigned_for_Couture</fullName>
+        <columns>Event__c</columns>
+        <columns>SubExpo__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>Couture</value>
+        </filters>
+        <label>2020 Couture</label>
+        <sharedTo>
+            <role>Couture_Account_Executives</role>
+            <role>Couture_Marketing_Coordinators</role>
+            <role>Couture_Marketing_Management</role>
+            <role>Couture_Sales_Management</role>
+            <role>Couture_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2020_International_Pizza_Expo_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>equals</operation>
+            <value>2020 International Pizza Expo</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filters>
+        <label>2020 International Pizza Expo Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>X2020_Surf_September_Leads</fullName>
+        <columns>pi_ee_Campaign_Short_Desc__c</columns>
+        <columns>Event__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>SubExpo__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>Surf Expo September</value>
+        </filters>
+        <filters>
+            <field>pi_ee_Campaign_Short_Desc__c</field>
+            <operation>contains</operation>
+            <value>inbound</value>
+        </filters>
+        <filters>
+            <field>Disposition__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>2020 Surf September Pardot</label>
+        <sharedTo>
+            <role>Surf_Account_Executives</role>
+            <role>Surf_Marketing_Coordinators</role>
+            <role>Surf_Marketing_Management</role>
+            <role>Surf_Sales_Management</role>
+            <role>Surf_Show_Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2020_Surf_September_Pardot</fullName>
+        <columns>Disposition__c</columns>
+        <columns>pi_ee_Campaign_Short_Desc__c</columns>
+        <columns>Event__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>SubExpo__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event__c</field>
+            <operation>contains</operation>
+            <value>Surf Expo September</value>
+        </filters>
+        <filters>
+            <field>pi_ee_Campaign_Short_Desc__c</field>
+            <operation>contains</operation>
+            <value>inbound</value>
+        </filters>
+        <filters>
+            <field>Disposition__c</field>
+            <operation>equals</operation>
+            <value>Other</value>
+        </filters>
+        <label>2020 Surf September Pardot Other List</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LEAD.COMPANY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LEAD.PHONE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LEAD.COMPANY</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.COMPANY</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.PHONE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.MOBILE_PHONE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Home_Phone__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Other_Phone__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Phone_Office__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Work_Phone__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.COMPANY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.PHONE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.MOBILE_PHONE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Booth_Expired</fullName>
+        <active>false</active>
+        <errorConditionFormula>Event_Booth_Last_Date__c &lt; Today()</errorConditionFormula>
+        <errorDisplayField>LeadToEvent__c</errorDisplayField>
+        <errorMessage>You cannot create a Lead for the {Event] event because it is past the Event Close Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>City_is_required</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+(NOT ISBLANK(Street)), 
+
+ISBLANK(City) 
+)</errorConditionFormula>
+        <errorDisplayField>City</errorDisplayField>
+        <errorMessage>Please enter city name.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Country_is_required</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+OR( 
+(NOT ISBLANK(Street)), 
+(NOT ISBLANK(City)), 
+(NOT ISBLANK(PostalCode)) 
+
+), 
+ISBLANK(TEXT(CountryCode)))</errorConditionFormula>
+        <errorDisplayField>Country</errorDisplayField>
+        <errorMessage>Please select a country.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FirstName_EmailorPhone_Target_Event</fullName>
+        <active>true</active>
+        <description>FirstName,Email/Phone,Target_Event fields are Required</description>
+        <errorConditionFormula>OR( 
+AND(ISBLANK(pi_ee_Event_Code__c), 
+ISBLANK(Event__c)), 
+AND(ISBLANK(Phone), 
+ISBLANK(Email)), 
+ISBLANK(FirstName))&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False
+&amp;&amp; EE_Record_Type__c == "Exhibitor"</errorConditionFormula>
+        <errorMessage>First Name,Email/Phone,Targeted Event fields are Required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Non_Booth_expired</fullName>
+        <active>false</active>
+        <errorConditionFormula>Event_Non_Booth_Last_Date__c &lt; Today()</errorConditionFormula>
+        <errorDisplayField>LeadToEvent__c</errorDisplayField>
+        <errorMessage>You cannot create a Lead for the {Event] event because it is past the Event Close Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Postal_Code_is_required</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+
+OR( 
+ISPICKVAL(CountryCode,'US'), 
+ISPICKVAL(CountryCode,'CA') 
+), 
+(NOT ISBLANK(Street)), 
+(NOT ISBLANK(City)), 
+ISBLANK(PostalCode) 
+)</errorConditionFormula>
+        <errorDisplayField>PostalCode</errorDisplayField>
+        <errorMessage>Postal Code is required for US or Canadian address.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Required_Disposition_If_Unqualified</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND
+(
+ISPICKVAL( Status, 'Unqualified'),
+ ISblank( text(Disposition__c) ) 
+)&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Disposition__c</errorDisplayField>
+        <errorMessage>Must select a reason to disqualify a lead</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Required_Other_Disposition</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (
+   ISPICKVAL(Disposition__c,'Other'),
+ISBLANK( Other_Disposition__c ) 
+)&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorDisplayField>Other_Disposition__c</errorDisplayField>
+        <errorMessage>Additional info is required if Unqualified Reason is "Other".</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Required_fields_for_converting_a_lead</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+IsConverted, 
+OR( 
+ 
+ISBLANK(FirstName), 
+ISBLANK(Event__c), 
+AND(ISBLANK(Phone), 
+ISBLANK(Email)), 
+ISPICKVAL(LeadSource, ""), 
+ISPICKVAL(Product__c, "") 
+) 
+)&amp;&amp; $Permission.Bypass_Validation_rules_for_Users = False</errorConditionFormula>
+        <errorMessage>• Fields( First Name, Phone or Email, Target Event, Product, Lead Source ) are required before converting a lead.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>State_required_for_specific_Countries</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+OR( 
+ISPICKVAL(CountryCode,'US'), 
+ISPICKVAL(CountryCode,'CA') 
+), 
+(NOT ISBLANK(Street)), 
+(NOT ISBLANK(City)), 
+ISBLANK(TEXT(StateCode)) 
+)</errorConditionFormula>
+        <errorDisplayField>State</errorDisplayField>
+        <errorMessage>State/Province is required for US or Canadian address.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Street_is_required</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+(NOT ISBLANK(City)), 
+
+ISBLANK(Street) 
+)</errorConditionFormula>
+        <errorDisplayField>Street</errorDisplayField>
+        <errorMessage>Please enter street address.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>AltavistaNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Altavista News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://news.altavista.com/search?nc=0&amp;q={!Lead_Company}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Lead_Street}+{!Lead_City}+{!Lead_State}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/news?&amp;q={!Lead_Company}&amp;btnG=Search+News</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Lead_Company}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>HooversProfile</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Hoovers Profile</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Lead_Company}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SendGmail</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Send Gmail</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://mail.google.com/mail?view=cm&amp;tf=0&amp;to={!Lead_Email}&lt;{!Lead_LastName}, {!Lead_FirstName}&gt;&amp;tf=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>YahooMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Yahoo Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://maps.yahoo.com/py/maps.py?cn={!Lead_Country}&amp;csz={!Lead_City}+{!Lead_State}+{!Lead_PostalCode}+&amp;addr={!Lead_Address}</url>
+    </webLinks>
+</CustomObject>

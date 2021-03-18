@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NY_NOW</letterhead>
+    <name>Global Design_HM-Acceptance</name>
+    <style>formalLetter</style>
+    <subject>Global Design Jury Feedback - {!Account.Name}</subject>
+    <textOnly>{!Account.Name}
+
+Dear {!Contact.FirstName},
+We are thrilled to inform you that after reviewing your application, the Selection Committee has recommended your company for the Handmade® Global Design section of NY NOW®.  Congratulations!
+
+We will dedicate all efforts on accommodating your company as quickly as possible. The dates for the Handmade Collection at NY NOW are Saturday August 10th - Tuesday August 13th ( 9am - 6pm each day) with overall market dates of Saturday August 10th - Wednesday August 14th.
+
+To expedite your placement, please reply to this email and let us know your desired booth size (i.e. 100, 150, 200 Sq. Ft. etc.). Corners are available on a limited basis.
+
+Booths in HANDMADE are equipped with a standard booth package ($47/sq. ft.) including:
+• Pipe and black drape
+
+• Identification sign
+
+• (1) Chair
+
+• Drayage (excluding small packages and loose shipments)
+
+• Directory listing, Online Directory Listing, &amp; Mobile App
+
+*Electricity, lights, and carpeting are not included in the standard booth package
+
+Your recommended jury status is valid for one year, after which time you would need to submit an updated application for review if you have not yet exhibited within the section.  Once you are placed in Handmade the selection committee will continue to review your line and presentation each market to ensure it evolves according to jury criteria.  Assignments are made on a one-time basis pending further review onsite.
+
+If you have any questions, please don&apos;t hesitate to contact us. We look forward to welcoming you to Handmade Global Design!
+
+
+Kind Regards,
+
+Ashley Ciofrone | Sales Manager | 914-421-3310
+Allison Garafalo | Sales Director | 914-421-3212</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

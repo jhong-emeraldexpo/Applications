@@ -1,0 +1,26 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" align="left"><em><b><span style="font-size:16.0pt;line-height:107%;
+font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+font-style:normal;mso-bidi-font-style:italic"><br></span></b></em></p><p class="MsoNormal" align="left"><em><b><span style="font-size:16.0pt;line-height:107%;
+font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+font-style:normal;mso-bidi-font-style:italic"><br></span></b></em></p><p class="MsoNormal" align="left"><em><b><span style="font-size:16.0pt;line-height:107%;
+font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+font-style:normal;mso-bidi-font-style:italic"><br></span></b></em></p><p class="MsoNormal" align="left"><em><b><span style="font-size:16.0pt;line-height:107%;
+font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+font-style:normal;mso-bidi-font-style:italic"><br></span></b></em></p><p class="MsoNormal" align="left"><font face="Arial,Sans-Serif" size="3"><em><b><span style="font-size: 16pt; line-height: 107%; font-style: normal;">{!User.Name}</span></b></em></font></p><p class="MsoNormal" align="left"><font face="Arial,Sans-Serif" size="2">{!User.Title}</font></p><p class="MsoNormal" align="left"><font face="Arial,Sans-Serif" size="2">Direct Line: {!User.Phone}</font></p><p class="MsoNormal" align="left"><font face="Arial,Sans-Serif" size="2">Cell: {!User.MobilePhone}<br></font></p><p class="MsoNormal" align="left"><font face="Arial,Sans-Serif" size="2">Fax: {!User.Fax}</font></p><p class="MsoNormal" align="left"><font face="Arial,Sans-Serif" size="2">Email: {!User.Email}</font></p><p class="MsoNormal" align="left"><a href="http://www.sportstailgateshow.com/"><img alt="" src="https://c.na17.content.force.com/servlet/servlet.ImageServer?id=015o0000001Zcrf&amp;oid=00Do0000000bvSI" align="left" border="0"></a></p><p class="MsoNormal" align="left"><br></p><p class="MsoNormal" align="left"><br></p><p class="MsoNormal" align="left"><br></p><p class="MsoNormal" align="left"><span style="font-family: 'Times New Roman', serif; font-size: 16px; line-height: 17.1200008392334px; background-color: rgb(255, 255, 255);"><strong>Confidentiality Notice</strong>:
+ the information contained in this email and any attachments is 
+confidential and may be legally privileged. If you are not an intended 
+recipient, you are hereby notified that any dissemination, distribution,
+ or copying of this e-mail is strictly prohibited. If you have received 
+this e-mail in error, please notify the sender and permanently delete 
+the e-mail and any attachments immediately. You should not retain, copy 
+or use this e-mail or any attachments for any purpose, nor disclose all 
+or any part of the contents to any other person. <br></span></p>]]></td>
+</tr>
+</table>

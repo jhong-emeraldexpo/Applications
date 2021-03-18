@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Advertiser</fullName>
+        <default>false</default>
+        <label>Advertiser</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AE Prospecting</fullName>
+        <default>false</default>
+        <label>AE Prospecting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booth Application</fullName>
+        <default>false</default>
+        <label>Booth Application</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitive Show Directory</fullName>
+        <default>false</default>
+        <label>Competitive Show Directory</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inquiry Form</fullName>
+        <default>false</default>
+        <label>Inquiry Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lost – Missed more than One Prior Show/Year</fullName>
+        <default>false</default>
+        <label>Lost – Missed more than One Prior Show/Year</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid Search</fullName>
+        <default>false</default>
+        <label>Paid Search</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Purchased List</fullName>
+        <default>false</default>
+        <label>Purchased List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Renewal – Prior Show/Year</fullName>
+        <default>false</default>
+        <label>Renewal – Prior Show/Year</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tradeshow</fullName>
+        <default>false</default>
+        <label>Tradeshow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web – Score Threshold</fullName>
+        <default>false</default>
+        <label>Web – Score Threshold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Winback – Missed Prior Show/Year</fullName>
+        <default>false</default>
+        <label>Winback – Missed Prior Show/Year</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Newsletter</fullName>
+        <default>false</default>
+        <label>Newsletter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attendee Prospect</fullName>
+        <default>false</default>
+        <label>Attendee Prospect</label>
+    </standardValue>
+</StandardValueSet>

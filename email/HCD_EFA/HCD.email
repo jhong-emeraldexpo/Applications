@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<br><br><br><br><br><table style="font-family: 'Times New Roman'; width: 500px;" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><strong><em><font face="Times New Roman,Times,Serif" size="5">{!User.Name}</font><br></em><a href="http://www.healthcaredesignmagazine.com/conference/healthcare-design-conference"><font size="4"><font face="Times New Roman,Times,Serif">Healthcare Design Expo and Conference</font></font></a><br><a href="http://www.environmentsforaging.com/conference/home"><font size="4"><font face="Times New Roman,Times,Serif">Environments for Aging Expo and Conference</font></font></a><br><em></em></strong>{!User.Phone}|Fax: {!User.Fax}<br>{!User.Email}</td></tr><tr><td><br></td></tr><tr><td><span style="font-family: 'Times New Roman', serif; font-size: 16px; line-height: 17.1200008392334px; background-color: rgb(255, 255, 255);"><strong>Confidentiality Notice</strong>:
+ the information contained in this email and any attachments is 
+confidential and may be legally privileged. If you are not an intended 
+recipient, you are hereby notified that any dissemination, distribution,
+ or copying of this e-mail is strictly prohibited. If you have received 
+this e-mail in error, please notify the sender and permanently delete 
+the e-mail and any attachments immediately. You should not retain, copy 
+or use this e-mail or any attachments for any purpose, nor disclose all 
+or any part of the contents to any other person.&nbsp;</span></td></tr></tbody></table><br>]]></td>
+</tr>
+</table>

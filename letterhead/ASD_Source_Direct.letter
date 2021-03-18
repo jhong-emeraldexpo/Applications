@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letterhead xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <backgroundColor>#CCCCCC</backgroundColor>
+    <bodyColor>#FFFFFF</bodyColor>
+    <bottomLine>
+        <color>#FFFFFF</color>
+        <height>1</height>
+    </bottomLine>
+    <footer>
+        <backgroundColor>#FFFFFF</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </footer>
+    <header>
+        <backgroundColor>#FFFFFF</backgroundColor>
+        <height>90</height>
+        <horizontalAlignment>Center</horizontalAlignment>
+        <logo>ASD_Source_Direct/ASD_Source_Direct_Logo.gif</logo>
+        <verticalAlignment>Bottom</verticalAlignment>
+    </header>
+    <middleLine>
+        <color>#FFFFFF</color>
+        <height>1</height>
+    </middleLine>
+    <name>ASD Source Direct</name>
+    <topLine>
+        <color>#FF0000</color>
+        <height>3</height>
+    </topLine>
+</Letterhead>

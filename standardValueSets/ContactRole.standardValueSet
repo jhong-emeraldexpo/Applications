@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>A2Z Invoice Contact</fullName>
+        <default>false</default>
+        <label>A2Z Invoice Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract Contact</fullName>
+        <default>true</default>
+        <label>Contract Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract Contact (Secondary)</fullName>
+        <default>false</default>
+        <label>Contract Contact (Secondary)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing Contact</fullName>
+        <default>false</default>
+        <label>Marketing Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Contact</fullName>
+        <default>false</default>
+        <label>Sales Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sponsorship Contact</fullName>
+        <default>false</default>
+        <label>Sponsorship Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attendee Contact</fullName>
+        <default>false</default>
+        <label>Attendee Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Elastic Digital Market Order Contact</fullName>
+        <default>false</default>
+        <label>Elastic Digital Market Order Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Elastic Digital Market IT Contact</fullName>
+        <default>false</default>
+        <label>Elastic Digital Market IT Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Elastic Digital Market Onboarding Contact</fullName>
+        <default>false</default>
+        <label>Elastic Digital Market Onboarding Contact</label>
+    </standardValue>
+</StandardValueSet>

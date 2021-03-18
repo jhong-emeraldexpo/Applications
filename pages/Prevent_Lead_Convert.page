@@ -1,0 +1,8 @@
+<apex:page StandardController="Lead">
+<apex:pageBlock >
+<apex:PageMessage summary="To Convert this lead please use the
+AutoConvert Checkbox located on the lead record" severity="Warning"
+strength="3"/>
+<apex:pageMessages />
+</apex:pageBlock>
+</apex:page>

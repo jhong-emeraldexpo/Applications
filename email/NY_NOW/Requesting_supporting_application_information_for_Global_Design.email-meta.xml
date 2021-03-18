@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NY_NOW</letterhead>
+    <name>Global Design - Requesting supporting application information</name>
+    <style>freeForm</style>
+    <subject>NY NOW_Requesting Supporting Materials - {!Account.Name}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+We received the online portion of your application for NY NOW® and are happy to hear of your interest in Handmade® Global Design!
+
+Handmade is a juried section of the market and as such applications are reviewed by an independent selection committee. To be considered for this section for the winter 2020 NY NOW, you must submit a comprehensive application packet via email no later than October 15th.
+
+Please submit the following materials via email as a pdf. or individual attachments:
+
+• Designer bio/company statement
+• Catalog/brochure with wholesale pricing
+• Booth display photo/rendering
+• Sample list of customers
+
+In addition, you may visit our website to view &quot;tips on applying to a juried section&quot;: http://www.nynow.com/exhibitors/tips-on-applying​
+
+All applications should be emailed to the following addresses:
+
+To:
+Ashley Ciofrone- Ashley.Ciofrone@nynow.com
+Desiree Weissgerber - Desiree.weissgerber@nynow.com
+Allison Garafalo - Allison.Garafalo@nynow.com
+
+Subject: Global Design Application_YOUR COMPANY NAME
+
+Should you have any further questions, please feel free to contact us. Otherwise, we look forward to receiving your application!
+
+Sincerely,
+
+Ashley Ciofrone | Sales Manager | 914-421-3310
+Desiree Weissgerber | Sales Representative | 914-421-3289
+Allison Garafalo | Sales Director | 914-421-3212</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

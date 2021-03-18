@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- A2Z EventID --></label>
+        <name>A2Z_EventID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booth Last Date --></label>
+        <name>Booth_Last_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- BrandShowSegment --></label>
+        <name>BrandShowSegment__c</name>
+        <picklistValues>
+            <masterLabel>ASD August Gift &amp; Toy</masterLabel>
+            <translation><!-- ASD August Gift &amp; Toy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASD August Jewelry</masterLabel>
+            <translation><!-- ASD August Jewelry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASD August SourceDirect</masterLabel>
+            <translation><!-- ASD August SourceDirect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASD August Style &amp; Beauty</masterLabel>
+            <translation><!-- ASD August Style &amp; Beauty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASD August Value &amp; Variety</masterLabel>
+            <translation><!-- ASD August Value &amp; Variety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASD March Gift &amp; Toy</masterLabel>
+            <translation><!-- ASD March Gift &amp; Toy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASD March Jewelry</masterLabel>
+            <translation><!-- ASD March Jewelry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASD March SourceDirect</masterLabel>
+            <translation><!-- ASD March SourceDirect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASD March Style &amp; Beauty</masterLabel>
+            <translation><!-- ASD March Style &amp; Beauty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASD March Value &amp; Variety</masterLabel>
+            <translation><!-- ASD March Value &amp; Variety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction SuperConference</masterLabel>
+            <translation><!-- Construction SuperConference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Couture</masterLabel>
+            <translation><!-- Couture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Couture  Europe</masterLabel>
+            <translation><!-- Couture  Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Couture  Press Preview</masterLabel>
+            <translation><!-- Couture  Press Preview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design Americas</masterLabel>
+            <translation><!-- Design Americas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFA</masterLabel>
+            <translation><!-- EFA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GlobalShop</masterLabel>
+            <translation><!-- GlobalShop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HD Expo</masterLabel>
+            <translation><!-- HD Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HD Expo  Summit</masterLabel>
+            <translation><!-- HD Expo  Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HDC  Expo</masterLabel>
+            <translation><!-- HDC  Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISS  Atlantic City</masterLabel>
+            <translation><!-- ISS  Atlantic City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISS  Ft. Worth</masterLabel>
+            <translation><!-- ISS  Ft. Worth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISS  Long Beach</masterLabel>
+            <translation><!-- ISS  Long Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISS  Nashville</masterLabel>
+            <translation><!-- ISS  Nashville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISS  Orlando</masterLabel>
+            <translation><!-- ISS  Orlando --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interbike</masterLabel>
+            <translation><!-- Interbike --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interbike   Outdoor Demo</masterLabel>
+            <translation><!-- Interbike   Outdoor Demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JA New York Fall</masterLabel>
+            <translation><!-- JA New York Fall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JA New York Spring</masterLabel>
+            <translation><!-- JA New York Spring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JA New York Summer</masterLabel>
+            <translation><!-- JA New York Summer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JA New York Winter</masterLabel>
+            <translation><!-- JA New York Winter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JA Special Delivery  NY</masterLabel>
+            <translation><!-- JA Special Delivery  NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KBIS</masterLabel>
+            <translation><!-- KBIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marine  Modern Day</masterLabel>
+            <translation><!-- Marine  Modern Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marine  South</masterLabel>
+            <translation><!-- Marine  South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marine  West</masterLabel>
+            <translation><!-- Marine  West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medtrade</masterLabel>
+            <translation><!-- Medtrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medtrade Spring</masterLabel>
+            <translation><!-- Medtrade Spring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR Summer Expo</masterLabel>
+            <translation><!-- OR Summer Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR Summer Outdoor Demo</masterLabel>
+            <translation><!-- OR Summer Outdoor Demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR Winter All Mountain Demo</masterLabel>
+            <translation><!-- OR Winter All Mountain Demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR Winter Expo</masterLabel>
+            <translation><!-- OR Winter Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PhotoPlus</masterLabel>
+            <translation><!-- PhotoPlus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pizza Expo</masterLabel>
+            <translation><!-- Pizza Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLAT</masterLabel>
+            <translation><!-- SLAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports Licensing &amp; Tailgate Show</masterLabel>
+            <translation><!-- Sports Licensing &amp; Tailgate Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding &amp; Portrait Photographers Intl</masterLabel>
+            <translation><!-- Wedding &amp; Portrait Photographers Intl --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BrandfromShowObject --></label>
+        <name>BrandfromShowObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default AE --></label>
+        <name>Default_AE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Code --></label>
+        <name>Event_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Expired --></label>
+        <name>Event_Expired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event ID --></label>
+        <name>Event_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Name Formula --></label>
+        <name>Event_Name_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Year --></label>
+        <name>Event_Year__c</name>
+        <picklistValues>
+            <masterLabel>2010</masterLabel>
+            <translation><!-- 2010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2011</masterLabel>
+            <translation><!-- 2011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2012</masterLabel>
+            <translation><!-- 2012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2013</masterLabel>
+            <translation><!-- 2013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2014</masterLabel>
+            <translation><!-- 2014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015</masterLabel>
+            <translation><!-- 2015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016</masterLabel>
+            <translation><!-- 2016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2017</masterLabel>
+            <translation><!-- 2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2018</masterLabel>
+            <translation><!-- 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019</masterLabel>
+            <translation><!-- 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020</masterLabel>
+            <translation><!-- 2020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2021</masterLabel>
+            <translation><!-- 2021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2022</masterLabel>
+            <translation><!-- 2022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2023</masterLabel>
+            <translation><!-- 2023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2024</masterLabel>
+            <translation><!-- 2024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2025</masterLabel>
+            <translation><!-- 2025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2026</masterLabel>
+            <translation><!-- 2026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2027</masterLabel>
+            <translation><!-- 2027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2028</masterLabel>
+            <translation><!-- 2028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2029</masterLabel>
+            <translation><!-- 2029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2030</masterLabel>
+            <translation><!-- 2030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2031</masterLabel>
+            <translation><!-- 2031 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2032</masterLabel>
+            <translation><!-- 2032 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2033</masterLabel>
+            <translation><!-- 2033 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2034</masterLabel>
+            <translation><!-- 2034 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2035</masterLabel>
+            <translation><!-- 2035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2036</masterLabel>
+            <translation><!-- 2036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2037</masterLabel>
+            <translation><!-- 2037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2038</masterLabel>
+            <translation><!-- 2038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2039</masterLabel>
+            <translation><!-- 2039 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2040</masterLabel>
+            <translation><!-- 2040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2041</masterLabel>
+            <translation><!-- 2041 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2042</masterLabel>
+            <translation><!-- 2042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2043</masterLabel>
+            <translation><!-- 2043 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2044</masterLabel>
+            <translation><!-- 2044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2045</masterLabel>
+            <translation><!-- 2045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2046</masterLabel>
+            <translation><!-- 2046 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2047</masterLabel>
+            <translation><!-- 2047 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2048</masterLabel>
+            <translation><!-- 2048 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2049</masterLabel>
+            <translation><!-- 2049 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2050</masterLabel>
+            <translation><!-- 2050 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Show Date --></label>
+        <name>Last_Show_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market --></label>
+        <name>Market__c</name>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design/Healthcare</masterLabel>
+            <translation><!-- Design/Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food</masterLabel>
+            <translation><!-- Food --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift, Home, &amp; Gen Mchds</masterLabel>
+            <translation><!-- Gift, Home, &amp; Gen Mchds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare</masterLabel>
+            <translation><!-- Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jewelry, Luxury &amp; Antiques</masterLabel>
+            <translation><!-- Jewelry, Luxury &amp; Antiques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Licensing</masterLabel>
+            <translation><!-- Licensing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military</masterLabel>
+            <translation><!-- Military --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photo</masterLabel>
+            <translation><!-- Photo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports &amp; Apparel</masterLabel>
+            <translation><!-- Sports &amp; Apparel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Next Year Event --></label>
+        <name>NextYear_Event_ID__c</name>
+        <relationshipLabel><!-- Next Year Event --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non-Booth Last Date --></label>
+        <name>Non_Booth_Last_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Start Date --></label>
+        <name>Opportunity_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Event Code --></label>
+        <name>Registration_Event_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>SegmentTextFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Code --></label>
+        <name>Show_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show --></label>
+        <name>Show__c</name>
+        <relationshipLabel><!-- Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Stage Date --></label>
+        <name>Stage_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Booth Revenue --></label>
+        <name>Target_Booth_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Digital Revenue --></label>
+        <name>Target_Digital_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target List Rental Revenue --></label>
+        <name>Target_List_Rental_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target NSF --></label>
+        <name>Target_NSF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Other Revenue --></label>
+        <name>Target_Other_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Print Revenue --></label>
+        <name>Target_Print_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Sponsorship Revenue --></label>
+        <name>Target_Sponsorship_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Verified Registrants --></label>
+        <name>Target_Verified_Registrants__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Event --></label>
+        <name>Upcoming_Event_ID__c</name>
+        <relationshipLabel><!-- Up Coming Event (Event) --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Event Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Relate To --></label>
+            <section>Relate To</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Event Layout-Lightning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Relate To --></label>
+            <section>Relate To</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

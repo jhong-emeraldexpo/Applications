@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Describes the Products</description>
+    <label>Product</label>
+    <pluralLabel>Products</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

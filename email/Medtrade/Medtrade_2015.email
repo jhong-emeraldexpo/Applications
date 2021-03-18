@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:500px;">
+	<tbody>
+		<tr>
+			<td><br />
+			<strong><em>{!User.Name}</em></strong><br />
+			{!User.Title}<br />
+			{!User.Phone}|e-Fax: {!User.Fax}<br />
+			{!User.Email}</td>
+		</tr>
+		<tr>
+			<td><a href="http://www.medtrade.com/index.shtml" target="_blank"><img alt="Medtrade Spring Logo" src="https://c.na17.content.force.com/servlet/servlet.ImageServer?id=015o0000001JRuc&amp;oid=00Do0000000bvSI&amp;lastMod=1438141376000" style="width: 149px; height: 31px;" /></a><br />
+			March 1-2, 2016, Mandalay Bay Convention Center, Las Vegas, NV <b> </b></td>
+		</tr>
+		<tr>
+			<td><a href="http://www.medtrade.com/spring/index.shtml" target="_blank"><img alt="Medtrade Spring Logo" src="https://c.na17.content.force.com/servlet/servlet.ImageServer?id=015o0000001JRum&amp;oid=00Do0000000bvSI&amp;lastMod=1438141915000" style="height: 50px; width: 149px;" /></a><br />
+			March 1-2, 2016, Mandalay Bay Convention Center, Las Vegas, NV <b> </b></td>
+		</tr>
+		<tr>
+			<td>
+			<p>&nbsp;</p><span style="font-family: 'Times New Roman', serif; font-size: 16px; line-height: 17.1200008392334px; background-color: rgb(255, 255, 255);"><strong>Confidentiality Notice</strong>: the information contained in this email and any attachments is confidential and may be legally privileged. If you are not an intended recipient, you are hereby notified that any dissemination, distribution, or copying of this e-mail is strictly prohibited. If you have received this e-mail in error, please notify the sender and permanently delete the e-mail and any attachments immediately. You should not retain, copy or use this e-mail or any attachments for any purpose, nor disclose all or any part of the contents to any other person.&nbsp;</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

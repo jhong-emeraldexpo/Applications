@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- A2Z CoID --></label>
+        <name>A2Z_CoID__c</name>
+    </fields>
+    <fields>
+        <label><!-- A2Z Company Name --></label>
+        <name>A2Z_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- A2Z Password --></label>
+        <name>A2Z_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account 18 digit ID --></label>
+        <name>Account_18_digit_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Names --></label>
+        <name>Alternate_Names__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reviewed by Billing Coordinator? --></label>
+        <name>Approved_For_A2Z__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field if State/Province is not available for this particular country. --></help>
+        <label><!-- HQ Province/Region 2 --></label>
+        <name>BillingProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- CDH_RecordKey --></label>
+        <name>CDH_RecordKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collection Alert Reason --></label>
+        <name>Collection_Alert_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Cancellation revenue</masterLabel>
+            <translation><!-- Cancellation revenue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit card chargeback</masterLabel>
+            <translation><!-- Credit card chargeback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Payment</masterLabel>
+            <translation><!-- No Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return check</masterLabel>
+            <translation><!-- Return check --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Collections Alert --></label>
+        <name>Collections_Alert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company ID --></label>
+        <name>Company_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exhibit As / Directory Name --></label>
+        <name>DBA2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doing Business As --></label>
+        <name>DBA__c</name>
+    </fields>
+    <fields>
+        <label><!-- DM_ID --></label>
+        <name>DM_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Sell --></label>
+        <name>Do_Not_Sell__c</name>
+        <picklistValues>
+            <masterLabel>Blacklisted</masterLabel>
+            <translation><!-- Blacklisted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collections Alert</masterLabel>
+            <translation><!-- Collections Alert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elastics Suite Competitor</masterLabel>
+            <translation><!-- Elastics Suite Competitor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A2Z Company E-Mail --></label>
+        <name>Email_Main__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Account ID Auto --></label>
+        <name>External_Account_ID_Auto__c</name>
+    </fields>
+    <fields>
+        <help><!-- A2Z CoID --></help>
+        <label><!-- A2Z Company ID --></label>
+        <name>External_Account_ID_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Account ID_NotUsed --></label>
+        <name>External_Account_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Account # --></label>
+        <name>External_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Number --></label>
+        <name>External_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax Permission --></label>
+        <name>Fax_Permission__c</name>
+    </fields>
+    <fields>
+        <label><!-- A2Z Contact First Name --></label>
+        <name>FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- HQ State Code --></label>
+        <name>HQStateCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- HQ Address --></label>
+        <name>HQ_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ignore Duplicate Error --></label>
+        <name>Ignore_Duplicate_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- A2Z Contact Last Name --></label>
+        <name>LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintenance --></label>
+        <name>Maintenance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Codes --></label>
+        <name>Merge_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Named Account --></label>
+        <name>Named_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open2 --></label>
+        <name>Open2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone1 Ext --></label>
+        <name>Phone1_Ext__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone1 --></label>
+        <name>Phone1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone2 Ext --></label>
+        <name>Phone2_Ext__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone2 --></label>
+        <name>Phone2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Ext --></label>
+        <name>Phone_Ext__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prev Result --></label>
+        <name>Prev_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Account ID --></label>
+        <name>Primary_Account_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship Type --></label>
+        <name>Relationship_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salutation --></label>
+        <name>Salutation__c</name>
+        <picklistValues>
+            <masterLabel>Dr.</masterLabel>
+            <translation><!-- Dr. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mr.</masterLabel>
+            <translation><!-- Mr. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mrs.</masterLabel>
+            <translation><!-- Mrs. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ms.</masterLabel>
+            <translation><!-- Ms. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prof.</masterLabel>
+            <translation><!-- Prof. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secr --></label>
+        <name>Secr__c</name>
+    </fields>
+    <fields>
+        <label><!-- SkipAddressValidation --></label>
+        <name>SkipAddressValidation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dead</masterLabel>
+            <translation><!-- Dead --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SubShowIdfromLeavCovertion --></label>
+        <name>SubShowIdfromLeavCovertion__c</name>
+    </fields>
+    <fields>
+        <label><!-- TSS ID --></label>
+        <name>TSS_ID__c</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>HQ Address</value>
+        </caseValues>
+        <name>billing_address_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>HQ City</value>
+        </caseValues>
+        <name>billing_city_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>HQ Country</value>
+        </caseValues>
+        <name>billing_country_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>HQ Country Code</value>
+        </caseValues>
+        <name>billing_country_code_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>HQ State/Province</value>
+        </caseValues>
+        <name>billing_state_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>HQ State/Province Code</value>
+        </caseValues>
+        <name>billing_state_code_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>HQ Street</value>
+        </caseValues>
+        <name>billing_street_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>HQ Zip/Postal Code</value>
+        </caseValues>
+        <name>billing_zip_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Collection Alert Reason is required when Collections Alert is chosen --></errorMessage>
+        <name>Alert_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Postal Code is required for US or Canadian address. --></errorMessage>
+        <name>Postal_Code_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- State/Province is required for US or Canadian address. --></errorMessage>
+        <name>State_required_for_specific_Countries</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Order_History --></label>
+        <name>New_Order_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Order_History --></label>
+        <name>Order_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

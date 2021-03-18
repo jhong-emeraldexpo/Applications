@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Show</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Shows</value>
+    </caseValues>
+    <fields>
+        <label><!-- Attendee Owner --></label>
+        <name>Attendee_Owner__c</name>
+        <relationshipLabel><!-- Shows (Attendee Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billing Coordinator --></label>
+        <name>Billing_Coordinator__c</name>
+        <relationshipLabel><!-- Shows (Billing Coordinator) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Brand --></label>
+        <name>Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market --></label>
+        <name>Market__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Operation --></label>
+        <name>Marketing_Operation__c</name>
+        <relationshipLabel><!-- Shows (Marketing Operation) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rule Set --></label>
+        <name>Rule_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- A2Z Sales Rep Logic --></label>
+        <name>Sales_Rep_Logic__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opp Owner/Show Acct Owner</masterLabel>
+            <translation><!-- Opp Owner/Show Acct Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Owner</masterLabel>
+            <translation><!-- Opportunity Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show Account Owner</masterLabel>
+            <translation><!-- Show Account Owner --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShowID --></label>
+        <name>ShowID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Code --></label>
+        <name>Show_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Group --></label>
+        <name>Show_Group__c</name>
+    </fields>
+    <layouts>
+        <layout>Show Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Show Layout-Lightning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

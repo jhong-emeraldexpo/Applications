@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Attachment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Attachments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Attachments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Attachments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Document Link --></label>
+        <name>Document_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>Floor plan</masterLabel>
+            <translation><!-- Floor plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Contract</masterLabel>
+            <translation><!-- Online Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Contract</masterLabel>
+            <translation><!-- Other Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show Contract</masterLabel>
+            <translation><!-- Show Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show URL</masterLabel>
+            <translation><!-- Show URL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>Event__c</name>
+        <relationshipLabel><!-- Attachments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>Lead__c</name>
+        <relationshipLabel><!-- Attachments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Attachments --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Attachment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Attachment Layout-Lightning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

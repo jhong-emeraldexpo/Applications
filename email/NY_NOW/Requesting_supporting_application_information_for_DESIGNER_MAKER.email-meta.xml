@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NY_NOW</letterhead>
+    <name>Designer Maker - Requesting supporting application information</name>
+    <style>freeForm</style>
+    <subject>NY NOW_Requesting Supporting Materials - {!Account.Name}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+We received the online portion of your application for NY NOW® and are happy to hear of your interest in Handmade® Designer Maker!
+
+Handmade is a juried section of the market and as such applications are reviewed by an independent selection committee. To be considered for this section for winter 2020, you must submit a comprehensive application packet via mail to arrive in our office by no later than October 15.
+
+Please submit the following materials via mail for review:
+
+• Designer bio/company statement​
+• Specific information on where, by whom and how products are designed and made
+• Catalog/brochure with wholesale pricing
+• Booth display photo/rendering
+• Sample list of customers
+
+In addition, you may visit our website to view &quot;tips on applying to a juried section&quot;: http://www.nynow.com/exhibitors/tips-on-applying
+
+All applications should be mailed to the following address:
+
+Emerald Expositions / NY NOW
+ATTN: Handmade Designer Maker
+1133 Westchester Avenue, Suite N210
+White Plains, NY 10604-3547
+
+Should you have any further questions, please feel free to contact us. Otherwise, we look forward to receiving your application!
+
+Sincerely,
+
+NY NOW
+
+Ashley Ciofrone | Sales Manager | 914-421-3310
+Desiree Weissgerber | Sales Representative | 914-421-3289
+Allison Garafalo | Sales Director | 914-421-3212</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

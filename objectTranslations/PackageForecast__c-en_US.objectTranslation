@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TR Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TR Package</value>
+    </caseValues>
+    <fields>
+        <label><!-- Expected Revenue --></label>
+        <name>ExpectedRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecasted Amount --></label>
+        <name>ForecastedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- TR Package --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Probability --></label>
+        <name>Probability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <picklistValues>
+            <masterLabel>Digital</masterLabel>
+            <translation><!-- Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List rental</masterLabel>
+            <translation><!-- List rental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print</masterLabel>
+            <translation><!-- Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship</masterLabel>
+            <translation><!-- Sponsorship --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Package Forecast Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Package Forecast Layout-Lightning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>A2Z_EventID__c</fullName>
+        <externalId>true</externalId>
+        <label>A2Z EventID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booth_Last_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Booth Last Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>BrandShowSegment__c</fullName>
+        <externalId>false</externalId>
+        <label>BrandShowSegment</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Market__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ASD March Gift &amp; Toy</fullName>
+                    <default>false</default>
+                    <label>ASD March Gift &amp; Toy</label>
+                </value>
+                <value>
+                    <fullName>ASD March Jewelry</fullName>
+                    <default>false</default>
+                    <label>ASD March Jewelry</label>
+                </value>
+                <value>
+                    <fullName>ASD March Style &amp; Beauty</fullName>
+                    <default>false</default>
+                    <label>ASD March Style &amp; Beauty</label>
+                </value>
+                <value>
+                    <fullName>ASD March Value &amp; Variety</fullName>
+                    <default>false</default>
+                    <label>ASD March Value &amp; Variety</label>
+                </value>
+                <value>
+                    <fullName>ASD March SourceDirect</fullName>
+                    <default>false</default>
+                    <label>ASD March SourceDirect</label>
+                </value>
+                <value>
+                    <fullName>ASD August SourceDirect</fullName>
+                    <default>false</default>
+                    <label>ASD August SourceDirect</label>
+                </value>
+                <value>
+                    <fullName>ASD August Gift &amp; Toy</fullName>
+                    <default>false</default>
+                    <label>ASD August Gift &amp; Toy</label>
+                </value>
+                <value>
+                    <fullName>ASD August Jewelry</fullName>
+                    <default>false</default>
+                    <label>ASD August Jewelry</label>
+                </value>
+                <value>
+                    <fullName>ASD August Style &amp; Beauty</fullName>
+                    <default>false</default>
+                    <label>ASD August Style &amp; Beauty</label>
+                </value>
+                <value>
+                    <fullName>ASD August Value &amp; Variety</fullName>
+                    <default>false</default>
+                    <label>ASD August Value &amp; Variety</label>
+                </value>
+                <value>
+                    <fullName>Interbike</fullName>
+                    <default>false</default>
+                    <label>Interbike</label>
+                </value>
+                <value>
+                    <fullName>Interbike   Outdoor Demo</fullName>
+                    <default>false</default>
+                    <label>Interbike   Outdoor Demo</label>
+                </value>
+                <value>
+                    <fullName>OR Winter Expo</fullName>
+                    <default>false</default>
+                    <label>OR Winter Expo</label>
+                </value>
+                <value>
+                    <fullName>OR Winter All Mountain Demo</fullName>
+                    <default>false</default>
+                    <label>OR Winter All Mountain Demo</label>
+                </value>
+                <value>
+                    <fullName>OR Summer Outdoor Demo</fullName>
+                    <default>false</default>
+                    <label>OR Summer Outdoor Demo</label>
+                </value>
+                <value>
+                    <fullName>OR Summer Expo</fullName>
+                    <default>false</default>
+                    <label>OR Summer Expo</label>
+                </value>
+                <value>
+                    <fullName>ISS  Long Beach</fullName>
+                    <default>false</default>
+                    <label>ISS  Long Beach</label>
+                </value>
+                <value>
+                    <fullName>ISS  Atlantic City</fullName>
+                    <default>false</default>
+                    <label>ISS  Atlantic City</label>
+                </value>
+                <value>
+                    <fullName>ISS  Nashville</fullName>
+                    <default>false</default>
+                    <label>ISS  Nashville</label>
+                </value>
+                <value>
+                    <fullName>ISS  Orlando</fullName>
+                    <default>false</default>
+                    <label>ISS  Orlando</label>
+                </value>
+                <value>
+                    <fullName>ISS  Ft. Worth</fullName>
+                    <default>false</default>
+                    <label>ISS  Ft. Worth</label>
+                </value>
+                <value>
+                    <fullName>Sports Licensing &amp; Tailgate Show</fullName>
+                    <default>false</default>
+                    <label>Sports Licensing &amp; Tailgate Show</label>
+                </value>
+                <value>
+                    <fullName>JA New York Winter</fullName>
+                    <default>false</default>
+                    <label>JA New York Winter</label>
+                </value>
+                <value>
+                    <fullName>JA New York Spring</fullName>
+                    <default>false</default>
+                    <label>JA New York Spring</label>
+                </value>
+                <value>
+                    <fullName>JA New York Summer</fullName>
+                    <default>false</default>
+                    <label>JA New York Summer</label>
+                </value>
+                <value>
+                    <fullName>JA New York Fall</fullName>
+                    <default>false</default>
+                    <label>JA New York Fall</label>
+                </value>
+                <value>
+                    <fullName>JA Special Delivery  NY</fullName>
+                    <default>false</default>
+                    <label>JA Special Delivery  NY</label>
+                </value>
+                <value>
+                    <fullName>Couture  Europe</fullName>
+                    <default>false</default>
+                    <label>Couture  Europe</label>
+                </value>
+                <value>
+                    <fullName>Couture</fullName>
+                    <default>false</default>
+                    <label>Couture</label>
+                </value>
+                <value>
+                    <fullName>Couture  Press Preview</fullName>
+                    <default>false</default>
+                    <label>Couture  Press Preview</label>
+                </value>
+                <value>
+                    <fullName>Wedding &amp; Portrait Photographers Intl</fullName>
+                    <default>false</default>
+                    <label>Wedding &amp; Portrait Photographers Intl</label>
+                </value>
+                <value>
+                    <fullName>PhotoPlus</fullName>
+                    <default>false</default>
+                    <label>PhotoPlus</label>
+                </value>
+                <value>
+                    <fullName>Design Americas</fullName>
+                    <default>false</default>
+                    <label>Design Americas</label>
+                </value>
+                <value>
+                    <fullName>GlobalShop</fullName>
+                    <default>false</default>
+                    <label>GlobalShop</label>
+                </value>
+                <value>
+                    <fullName>HD Expo  Summit</fullName>
+                    <default>false</default>
+                    <label>HD Expo  Summit</label>
+                </value>
+                <value>
+                    <fullName>HD Expo</fullName>
+                    <default>false</default>
+                    <label>HD Expo</label>
+                </value>
+                <value>
+                    <fullName>KBIS</fullName>
+                    <default>false</default>
+                    <label>KBIS</label>
+                </value>
+                <value>
+                    <fullName>HDC  Expo</fullName>
+                    <default>false</default>
+                    <label>HDC  Expo</label>
+                </value>
+                <value>
+                    <fullName>EFA</fullName>
+                    <default>false</default>
+                    <label>EFA</label>
+                </value>
+                <value>
+                    <fullName>Construction SuperConference</fullName>
+                    <default>false</default>
+                    <label>Construction SuperConference</label>
+                </value>
+                <value>
+                    <fullName>Medtrade</fullName>
+                    <default>false</default>
+                    <label>Medtrade</label>
+                </value>
+                <value>
+                    <fullName>Medtrade Spring</fullName>
+                    <default>false</default>
+                    <label>Medtrade Spring</label>
+                </value>
+                <value>
+                    <fullName>Pizza Expo</fullName>
+                    <default>false</default>
+                    <label>Pizza Expo</label>
+                </value>
+                <value>
+                    <fullName>Marine  South</fullName>
+                    <default>false</default>
+                    <label>Marine  South</label>
+                </value>
+                <value>
+                    <fullName>Marine  Modern Day</fullName>
+                    <default>false</default>
+                    <label>Marine  Modern Day</label>
+                </value>
+                <value>
+                    <fullName>Marine  West</fullName>
+                    <default>false</default>
+                    <label>Marine  West</label>
+                </value>
+                <value>
+                    <fullName>SLAT</fullName>
+                    <default>false</default>
+                    <label>SLAT</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Gift, Home, &amp; Gen Mchds</controllingFieldValue>
+                <valueName>ASD March Gift &amp; Toy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Gift, Home, &amp; Gen Mchds</controllingFieldValue>
+                <valueName>ASD March Jewelry</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Gift, Home, &amp; Gen Mchds</controllingFieldValue>
+                <valueName>ASD March Style &amp; Beauty</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Gift, Home, &amp; Gen Mchds</controllingFieldValue>
+                <valueName>ASD March Value &amp; Variety</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Gift, Home, &amp; Gen Mchds</controllingFieldValue>
+                <valueName>ASD March SourceDirect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Gift, Home, &amp; Gen Mchds</controllingFieldValue>
+                <valueName>ASD August SourceDirect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Gift, Home, &amp; Gen Mchds</controllingFieldValue>
+                <valueName>ASD August Gift &amp; Toy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Gift, Home, &amp; Gen Mchds</controllingFieldValue>
+                <valueName>ASD August Jewelry</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Gift, Home, &amp; Gen Mchds</controllingFieldValue>
+                <valueName>ASD August Style &amp; Beauty</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Gift, Home, &amp; Gen Mchds</controllingFieldValue>
+                <valueName>ASD August Value &amp; Variety</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Gift, Home, &amp; Gen Mchds</controllingFieldValue>
+                <valueName>SLAT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sports &amp; Apparel</controllingFieldValue>
+                <valueName>Interbike</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sports &amp; Apparel</controllingFieldValue>
+                <valueName>Interbike   Outdoor Demo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sports &amp; Apparel</controllingFieldValue>
+                <valueName>OR Winter Expo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sports &amp; Apparel</controllingFieldValue>
+                <valueName>OR Winter All Mountain Demo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sports &amp; Apparel</controllingFieldValue>
+                <valueName>OR Summer Outdoor Demo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sports &amp; Apparel</controllingFieldValue>
+                <valueName>OR Summer Expo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sports &amp; Apparel</controllingFieldValue>
+                <valueName>ISS  Long Beach</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sports &amp; Apparel</controllingFieldValue>
+                <valueName>ISS  Atlantic City</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sports &amp; Apparel</controllingFieldValue>
+                <valueName>ISS  Nashville</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sports &amp; Apparel</controllingFieldValue>
+                <valueName>ISS  Orlando</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sports &amp; Apparel</controllingFieldValue>
+                <valueName>ISS  Ft. Worth</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Licensing</controllingFieldValue>
+                <valueName>Sports Licensing &amp; Tailgate Show</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Jewelry, Luxury &amp; Antiques</controllingFieldValue>
+                <valueName>JA New York Winter</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Jewelry, Luxury &amp; Antiques</controllingFieldValue>
+                <valueName>JA New York Spring</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Jewelry, Luxury &amp; Antiques</controllingFieldValue>
+                <valueName>JA New York Summer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Jewelry, Luxury &amp; Antiques</controllingFieldValue>
+                <valueName>JA New York Fall</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Jewelry, Luxury &amp; Antiques</controllingFieldValue>
+                <valueName>JA Special Delivery  NY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Jewelry, Luxury &amp; Antiques</controllingFieldValue>
+                <valueName>Couture  Europe</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Jewelry, Luxury &amp; Antiques</controllingFieldValue>
+                <valueName>Couture</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Jewelry, Luxury &amp; Antiques</controllingFieldValue>
+                <valueName>Couture  Press Preview</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Photo</controllingFieldValue>
+                <valueName>Wedding &amp; Portrait Photographers Intl</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Photo</controllingFieldValue>
+                <valueName>PhotoPlus</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Design</controllingFieldValue>
+                <valueName>Design Americas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Design</controllingFieldValue>
+                <valueName>GlobalShop</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Design</controllingFieldValue>
+                <valueName>HD Expo  Summit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Design</controllingFieldValue>
+                <valueName>HD Expo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Design</controllingFieldValue>
+                <valueName>KBIS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Design/Healthcare</controllingFieldValue>
+                <valueName>HDC  Expo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Design/Healthcare</controllingFieldValue>
+                <valueName>EFA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Design/Healthcare</controllingFieldValue>
+                <valueName>Construction SuperConference</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Healthcare</controllingFieldValue>
+                <valueName>Medtrade</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Healthcare</controllingFieldValue>
+                <valueName>Medtrade Spring</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Food</controllingFieldValue>
+                <valueName>Pizza Expo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Military</controllingFieldValue>
+                <valueName>Marine  South</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Military</controllingFieldValue>
+                <valueName>Marine  Modern Day</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Military</controllingFieldValue>
+                <valueName>Marine  West</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BrandfromShowObject__c</fullName>
+        <externalId>false</externalId>
+        <formula>Show__r.Brand__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>BrandfromShowObject</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Default_AE__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>For AR reports (request by Irene)</description>
+        <externalId>false</externalId>
+        <label>Default AE</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Event_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Code</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Expired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Event Expired</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Event_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Event ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Name_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Name Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Year</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>2010</fullName>
+                    <default>false</default>
+                    <label>2010</label>
+                </value>
+                <value>
+                    <fullName>2011</fullName>
+                    <default>false</default>
+                    <label>2011</label>
+                </value>
+                <value>
+                    <fullName>2012</fullName>
+                    <default>false</default>
+                    <label>2012</label>
+                </value>
+                <value>
+                    <fullName>2013</fullName>
+                    <default>false</default>
+                    <label>2013</label>
+                </value>
+                <value>
+                    <fullName>2014</fullName>
+                    <default>false</default>
+                    <label>2014</label>
+                </value>
+                <value>
+                    <fullName>2015</fullName>
+                    <default>false</default>
+                    <label>2015</label>
+                </value>
+                <value>
+                    <fullName>2016</fullName>
+                    <default>false</default>
+                    <label>2016</label>
+                </value>
+                <value>
+                    <fullName>2017</fullName>
+                    <default>false</default>
+                    <label>2017</label>
+                </value>
+                <value>
+                    <fullName>2018</fullName>
+                    <default>false</default>
+                    <label>2018</label>
+                </value>
+                <value>
+                    <fullName>2019</fullName>
+                    <default>false</default>
+                    <label>2019</label>
+                </value>
+                <value>
+                    <fullName>2020</fullName>
+                    <default>false</default>
+                    <label>2020</label>
+                </value>
+                <value>
+                    <fullName>2021</fullName>
+                    <default>false</default>
+                    <label>2021</label>
+                </value>
+                <value>
+                    <fullName>2022</fullName>
+                    <default>false</default>
+                    <label>2022</label>
+                </value>
+                <value>
+                    <fullName>2023</fullName>
+                    <default>false</default>
+                    <label>2023</label>
+                </value>
+                <value>
+                    <fullName>2024</fullName>
+                    <default>false</default>
+                    <label>2024</label>
+                </value>
+                <value>
+                    <fullName>2025</fullName>
+                    <default>false</default>
+                    <label>2025</label>
+                </value>
+                <value>
+                    <fullName>2026</fullName>
+                    <default>false</default>
+                    <label>2026</label>
+                </value>
+                <value>
+                    <fullName>2027</fullName>
+                    <default>false</default>
+                    <label>2027</label>
+                </value>
+                <value>
+                    <fullName>2028</fullName>
+                    <default>false</default>
+                    <label>2028</label>
+                </value>
+                <value>
+                    <fullName>2029</fullName>
+                    <default>false</default>
+                    <label>2029</label>
+                </value>
+                <value>
+                    <fullName>2030</fullName>
+                    <default>false</default>
+                    <label>2030</label>
+                </value>
+                <value>
+                    <fullName>2031</fullName>
+                    <default>false</default>
+                    <label>2031</label>
+                </value>
+                <value>
+                    <fullName>2032</fullName>
+                    <default>false</default>
+                    <label>2032</label>
+                </value>
+                <value>
+                    <fullName>2033</fullName>
+                    <default>false</default>
+                    <label>2033</label>
+                </value>
+                <value>
+                    <fullName>2034</fullName>
+                    <default>false</default>
+                    <label>2034</label>
+                </value>
+                <value>
+                    <fullName>2035</fullName>
+                    <default>false</default>
+                    <label>2035</label>
+                </value>
+                <value>
+                    <fullName>2036</fullName>
+                    <default>false</default>
+                    <label>2036</label>
+                </value>
+                <value>
+                    <fullName>2037</fullName>
+                    <default>false</default>
+                    <label>2037</label>
+                </value>
+                <value>
+                    <fullName>2038</fullName>
+                    <default>false</default>
+                    <label>2038</label>
+                </value>
+                <value>
+                    <fullName>2039</fullName>
+                    <default>false</default>
+                    <label>2039</label>
+                </value>
+                <value>
+                    <fullName>2040</fullName>
+                    <default>false</default>
+                    <label>2040</label>
+                </value>
+                <value>
+                    <fullName>2041</fullName>
+                    <default>false</default>
+                    <label>2041</label>
+                </value>
+                <value>
+                    <fullName>2042</fullName>
+                    <default>false</default>
+                    <label>2042</label>
+                </value>
+                <value>
+                    <fullName>2043</fullName>
+                    <default>false</default>
+                    <label>2043</label>
+                </value>
+                <value>
+                    <fullName>2044</fullName>
+                    <default>false</default>
+                    <label>2044</label>
+                </value>
+                <value>
+                    <fullName>2045</fullName>
+                    <default>false</default>
+                    <label>2045</label>
+                </value>
+                <value>
+                    <fullName>2046</fullName>
+                    <default>false</default>
+                    <label>2046</label>
+                </value>
+                <value>
+                    <fullName>2047</fullName>
+                    <default>false</default>
+                    <label>2047</label>
+                </value>
+                <value>
+                    <fullName>2048</fullName>
+                    <default>false</default>
+                    <label>2048</label>
+                </value>
+                <value>
+                    <fullName>2049</fullName>
+                    <default>false</default>
+                    <label>2049</label>
+                </value>
+                <value>
+                    <fullName>2050</fullName>
+                    <default>false</default>
+                    <label>2050</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Last_Show_Date__c</fullName>
+        <description>Last Show Date (End Date)</description>
+        <externalId>false</externalId>
+        <label>Last Show Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <externalId>false</externalId>
+        <label>Market</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Gift, Home, &amp; Gen Mchds</fullName>
+                    <default>false</default>
+                    <label>Gift, Home, &amp; Gen Mchds</label>
+                </value>
+                <value>
+                    <fullName>Sports &amp; Apparel</fullName>
+                    <default>false</default>
+                    <label>Sports &amp; Apparel</label>
+                </value>
+                <value>
+                    <fullName>Licensing</fullName>
+                    <default>false</default>
+                    <label>Licensing</label>
+                </value>
+                <value>
+                    <fullName>Jewelry, Luxury &amp; Antiques</fullName>
+                    <default>false</default>
+                    <label>Jewelry, Luxury &amp; Antiques</label>
+                </value>
+                <value>
+                    <fullName>Photo</fullName>
+                    <default>false</default>
+                    <label>Photo</label>
+                </value>
+                <value>
+                    <fullName>Design</fullName>
+                    <default>false</default>
+                    <label>Design</label>
+                </value>
+                <value>
+                    <fullName>Design/Healthcare</fullName>
+                    <default>false</default>
+                    <label>Design/Healthcare</label>
+                </value>
+                <value>
+                    <fullName>Healthcare</fullName>
+                    <default>false</default>
+                    <label>Healthcare</label>
+                </value>
+                <value>
+                    <fullName>Food</fullName>
+                    <default>false</default>
+                    <label>Food</label>
+                </value>
+                <value>
+                    <fullName>Military</fullName>
+                    <default>false</default>
+                    <label>Military</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NextYear_Event_ID__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Next Year Event</label>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Next Year Event</relationshipLabel>
+        <relationshipName>Events</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Non_Booth_Last_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Non-Booth Last Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Start_Date__c</fullName>
+        <description>Start Date</description>
+        <externalId>false</externalId>
+        <label>Opportunity Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Registration_Event_Code__c</fullName>
+        <description>Event Code from Registration System (EventXL)</description>
+        <externalId>true</externalId>
+        <label>Registration Event Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SegmentTextFormula__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(ISPICKVAL(BrandShowSegment__c, "ASD March Jewelry")),"Gift &amp; Toy", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ASD March Jewelry")), "Jewelry", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ASD March Style &amp; Beauty")), "Style &amp; Beauty", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ASD March Value &amp; Variety")), "Value &amp; Variety", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ASD March SourceDirect")), "SourceDirect", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ASD August SourceDirect")), "SourceDirect", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ASD August Gift &amp; Toy")), "Gift &amp; Toy", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ASD August Jewelry")), "Jewelry", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ASD August Style &amp; Beauty")), "Style &amp; Beauty", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ASD August Value &amp; Variety")), "Value &amp; Variety", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Interbike")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Interbike Outdoor Demo")), "Outdoor Demo", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "OR Winter Expo")), "Expo", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "OR Summer Outdoor Demo")), "All Mountain Demo", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "OR Summer Expo")), "Expo", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ISS Long Beach")), "Long Beach", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ISS Atlantic City")), "Atlantic City", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ISS Nashville")), "Nashville", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ISS Orlando")), "Orlando", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "ISS Ft. Worth")), "Ft. Worth", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Sports Licensing &amp; Tailgate Show ")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "JA New York Winter")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "JA New York Spring")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "JA New York Summer")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "JA New York Fall")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "JA Special Delivery NY")), "NY", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Couture Europe")), "Europe", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Couture")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Couture Press Preview")), "Press Preview", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Wedding &amp; Portrait Photographers Intl ")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "PhotoPlus")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Design Americas")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "GlobalShop")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "HD Expo Summit")), "Summit", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "HD Expo")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "KBIS")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "HDC Expo")), "Expo", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "EFA")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Construction SuperConference")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Medtrade")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Medtrade Spring")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Pizza Expo")), "", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Marine South")), "South", 
+IF(OR(ISPICKVAL(BrandShowSegment__c, "Marine Modern Day")), "Modern Day", 
+IF(ISPICKVAL(BrandShowSegment__c, "Marine West"), "West", "")))))))))))))))))))))))))))))))))))))))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Show_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>Show__r.Show_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Show Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Show__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Show</label>
+        <referenceTo>Show__c</referenceTo>
+        <relationshipLabel>Events</relationshipLabel>
+        <relationshipName>Events</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Stage_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Stage Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Target_Booth_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Booth Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Target_Digital_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Digital Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Target_List_Rental_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Target List Rental Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Target_NSF__c</fullName>
+        <externalId>false</externalId>
+        <label>Target NSF</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Target_Other_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Other Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Target_Print_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Print Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Target_Sponsorship_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Sponsorship Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Target_Verified_Registrants__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Verified Registrants</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Upcoming_Event_ID__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Next Event</label>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Up Coming Event (Event)</relationshipLabel>
+        <relationshipName>Upcoming_Event</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Event</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Event_Code__c</columns>
+        <columns>Event_Year__c</columns>
+        <columns>Non_Booth_Last_Date__c</columns>
+        <columns>Opportunity_Start_Date__c</columns>
+        <columns>Last_Show_Date__c</columns>
+        <columns>Stage_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Event  Name</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Events</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Event_Code__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Booth_Last_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Non_Booth_Last_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Stage_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Opportunity_Start_Date__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Event_Code__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Booth_Last_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Non_Booth_Last_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Stage_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Opportunity_Start_Date__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Event_Code__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Stage_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Opportunity_Start_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Booth_Last_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Non_Booth_Last_Date__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Event_Name_Formula__c</searchFilterFields>
+        <searchFilterFields>Market__c</searchFilterFields>
+        <searchFilterFields>Non_Booth_Last_Date__c</searchFilterFields>
+        <searchFilterFields>Booth_Last_Date__c</searchFilterFields>
+        <searchResultsAdditionalFields>Event_Code__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Event_Year__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Stage_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Opportunity_Start_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Non_Booth_Last_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Booth_Last_Date__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

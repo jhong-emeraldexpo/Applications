@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Activity_Result__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Activity Result is required when Campaign is populated</inlineHelpText>
+        <label>Activity Result</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>false</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>Contact made</fullName>
+                    <default>false</default>
+                    <label>Contact made</label>
+                </value>
+                <value>
+                    <fullName>Invalid Number</fullName>
+                    <default>false</default>
+                    <label>Invalid Number</label>
+                </value>
+                <value>
+                    <fullName>No Answer</fullName>
+                    <default>false</default>
+                    <label>No Answer</label>
+                </value>
+                <value>
+                    <fullName>Replied to Email</fullName>
+                    <default>false</default>
+                    <label>Replied to Email</label>
+                </value>
+                <value>
+                    <fullName>Returned Voicemail</fullName>
+                    <default>false</default>
+                    <label>Returned Voicemail</label>
+                </value>
+                <value>
+                    <fullName>Voicemail box full</fullName>
+                    <default>false</default>
+                    <label>Voicemail box full</label>
+                </value>
+                <value>
+                    <fullName>Voicemail left</fullName>
+                    <default>false</default>
+                    <label>Voicemail left</label>
+                </value>
+                <value>
+                    <fullName>Lead Created</fullName>
+                    <default>false</default>
+                    <label>Lead Created</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Activity_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Call</fullName>
+                    <default>false</default>
+                    <label>Call</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>F2F</fullName>
+                    <default>false</default>
+                    <label>F2F</label>
+                </value>
+                <value>
+                    <fullName>Facebook</fullName>
+                    <default>false</default>
+                    <label>Facebook</label>
+                </value>
+                <value>
+                    <fullName>Instagram</fullName>
+                    <default>false</default>
+                    <label>Instagram</label>
+                </value>
+                <value>
+                    <fullName>LinkedIn</fullName>
+                    <default>false</default>
+                    <label>LinkedIn</label>
+                </value>
+                <value>
+                    <fullName>Mail</fullName>
+                    <default>false</default>
+                    <label>Mail</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Text</fullName>
+                    <default>false</default>
+                    <label>Text</label>
+                </value>
+                <value>
+                    <fullName>Website</fullName>
+                    <default>false</default>
+                    <label>Website</label>
+                </value>
+                <value>
+                    <fullName>WhatsApp</fullName>
+                    <default>false</default>
+                    <label>WhatsApp</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Assigned_to_Markt_Ops__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Assigned to Markt Ops</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>MID(Subject, 
+FIND("|", Subject, 3) + 1, 
+LEN(Subject) - FIND("|", Subject, 2) 
+)</formula>
+        <label>Campaign Name</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Campaign__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Campaign</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Event__c</field>
+                <operation>equals</operation>
+                <valueField>Campaign.Event__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>Campaign.Product__c</field>
+                <operation>equals</operation>
+                <value>VIP Registration</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DM_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>DM_ID</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(begins(Subject,"P"), 
+MID( 
+Subject, 
+FIND("|",Subject ) + 1, 
+FIND("|",RIGHT(Subject, LEN(Subject) - FIND ("|",Subject ) -1 ))) 
+,"")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Code</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Event</label>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Goldmine_ACTVCODE__c</fullName>
+        <externalId>false</externalId>
+        <label>Goldmine ACTVCODE</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Goldmine_Closed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Goldmine Closed Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Goldmine_Created_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Goldmine Created Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Goldmine_RESULTCODE__c</fullName>
+        <externalId>false</externalId>
+        <label>Goldmine RESULTCODE</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HQ_State_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Account.BillingStateCode)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>HQ State Code</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IQ_Source_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>IQ Source Id</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Pardot_Task__c</fullName>
+        <externalId>false</externalId>
+        <formula>!ISBLANK(Event_Code__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Pardot Task</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account Maintenance</fullName>
+                    <default>false</default>
+                    <label>Account Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Collections</fullName>
+                    <default>false</default>
+                    <label>Collections</label>
+                </value>
+                <value>
+                    <fullName>Initial Retail Company Contact</fullName>
+                    <default>false</default>
+                    <label>Initial Retail Company Contact</label>
+                </value>
+                <value>
+                    <fullName>Initial Sales Contact</fullName>
+                    <default>false</default>
+                    <label>Initial Sales Contact</label>
+                </value>
+                <value>
+                    <fullName>Lost</fullName>
+                    <default>false</default>
+                    <label>Lost</label>
+                </value>
+                <value>
+                    <fullName>Operations</fullName>
+                    <default>false</default>
+                    <label>Operations</label>
+                </value>
+                <value>
+                    <fullName>Register Additional Company Contact</fullName>
+                    <default>false</default>
+                    <label>Register Additional Company Contact</label>
+                </value>
+                <value>
+                    <fullName>Retail Attendee Follow Up</fullName>
+                    <default>false</default>
+                    <label>Retail Attendee Follow Up</label>
+                </value>
+                <value>
+                    <fullName>Sales follow-up</fullName>
+                    <default>false</default>
+                    <label>Sales follow-up</label>
+                </value>
+                <value>
+                    <fullName>Send Contract</fullName>
+                    <default>false</default>
+                    <label>Send Contract</label>
+                </value>
+                <value>
+                    <fullName>Send Show/ Category Information</fullName>
+                    <default>false</default>
+                    <label>Send Show/ Category Information</label>
+                </value>
+                <value>
+                    <fullName>Winback</fullName>
+                    <default>false</default>
+                    <label>Winback</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>pi_ee_Subject__c</fullName>
+        <description>Original Subject pushed over from Pardot</description>
+        <externalId>false</externalId>
+        <label>Pardot Subject</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team's Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today's Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingEvents</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Events</label>
+    </listViews>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Segment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Segments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Details by Show --></label>
+        <name>Account_Details_by_Show__c</name>
+        <relationshipLabel><!-- Account Segments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Account Segments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this box if this is the first time this exhibitor exhibit at the show. --></help>
+        <label><!-- New Exhibitor --></label>
+        <name>IsNewExhibitor__c</name>
+    </fields>
+    <fields>
+        <label><!-- NSF --></label>
+        <name>NSF__c</name>
+    </fields>
+    <fields>
+        <label><!-- SegmentName --></label>
+        <name>SegmentName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>Segment__c</name>
+        <relationshipLabel><!-- Account Segments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ShowName --></label>
+        <name>ShowName__c</name>
+    </fields>
+    <fields>
+        <label><!-- SubShowName --></label>
+        <name>SubShowName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <layouts>
+        <layout>Account Segment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Segment Layout-Lightning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

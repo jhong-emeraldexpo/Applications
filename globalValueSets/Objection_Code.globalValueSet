@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Attendee Prospect</fullName>
+        <default>false</default>
+        <label>Attendee Prospect</label>
+    </customValue>
+    <customValue>
+        <fullName>Attendees Not a Match to Target Market</fullName>
+        <default>false</default>
+        <label>Attendees Not a Match to Target Market</label>
+    </customValue>
+    <customValue>
+        <fullName>Bad Experience with Emerald</fullName>
+        <default>false</default>
+        <label>Bad Experience with Emerald</label>
+    </customValue>
+    <customValue>
+        <fullName>Bad Experience with Vendor(GES/Freeman)</fullName>
+        <default>false</default>
+        <label>Bad experience with General Show Contractor</label>
+    </customValue>
+    <customValue>
+        <fullName>Co-Exhibitor</fullName>
+        <default>false</default>
+        <label>Co-Exhibitor</label>
+    </customValue>
+    <customValue>
+        <fullName>Conflict - Business</fullName>
+        <default>false</default>
+        <label>Conflict - Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Conflict - Personal</fullName>
+        <default>false</default>
+        <label>Conflict - Personal</label>
+    </customValue>
+    <customValue>
+        <fullName>Conflict with other show</fullName>
+        <default>false</default>
+        <label>Conflict with other show</label>
+    </customValue>
+    <customValue>
+        <fullName>Content not as good as in the past</fullName>
+        <default>false</default>
+        <label>Content not as good as in the past</label>
+    </customValue>
+    <customValue>
+        <fullName>Content not relevant</fullName>
+        <default>false</default>
+        <label>Content not relevant</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost</fullName>
+        <default>false</default>
+        <label>Cost</label>
+    </customValue>
+    <customValue>
+        <fullName>COVID- Health Concerns</fullName>
+        <default>false</default>
+        <label>COVID- Health Concerns</label>
+    </customValue>
+    <customValue>
+        <fullName>COVID- No Budget</fullName>
+        <default>false</default>
+        <label>COVID- No Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>COVID- Travel Restrictions</fullName>
+        <default>false</default>
+        <label>COVID- Travel Restrictions</label>
+    </customValue>
+    <customValue>
+        <fullName>Out of Business</fullName>
+        <default>false</default>
+        <label>Customer is Out of Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer not a fit</fullName>
+        <default>false</default>
+        <label>Customer not a fit</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer prefers another Emerald Show</fullName>
+        <default>false</default>
+        <label>Customer prefers another Emerald Show</label>
+    </customValue>
+    <customValue>
+        <fullName>Product not available</fullName>
+        <default>false</default>
+        <label>Customer Product is not Available</label>
+    </customValue>
+    <customValue>
+        <fullName>Don&apos;t Exhibit at Trade Shows</fullName>
+        <default>false</default>
+        <label>Does not exhibit at Trade Shows</label>
+    </customValue>
+    <customValue>
+        <fullName>Do Not Sell – Undesirable Exhibitor</fullName>
+        <default>false</default>
+        <label>Do Not Sell – Undesirable Exhibitor</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+        <label>Duplicate Opportunity</label>
+    </customValue>
+    <customValue>
+        <fullName>Exhibitors / Suppliers not relevant</fullName>
+        <default>false</default>
+        <label>Exhibitors / Suppliers not relevant</label>
+    </customValue>
+    <customValue>
+        <fullName>Exhibit at Other Show(s) Only</fullName>
+        <default>false</default>
+        <label>Exhibits at other show(s) only</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial/payment problem</fullName>
+        <default>false</default>
+        <label>Financial/payment problem</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Perceived lack of ROI (Return on Investment)</fullName>
+        <default>false</default>
+        <label>Perceived lack of ROI (Return on Investment)</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Enough Buyers/Leads</fullName>
+        <default>false</default>
+        <label>Perceived not enough Buyers/Leads</label>
+    </customValue>
+    <customValue>
+        <fullName>Potential Exhibitor participating as an Attendee</fullName>
+        <default>false</default>
+        <label>Potential Exhibitor participating as an Attendee</label>
+    </customValue>
+    <customValue>
+        <fullName>Previously attended - not beneficial</fullName>
+        <default>false</default>
+        <label>Previously attended - not beneficial</label>
+    </customValue>
+    <customValue>
+        <fullName>Repetitive Content</fullName>
+        <default>false</default>
+        <label>Repetitive Content</label>
+    </customValue>
+    <customValue>
+        <fullName>Severe Weather, Geo-Political, Unrest, etc.</fullName>
+        <default>false</default>
+        <label>Severe Weather, Geo-Political, Unrest, etc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Unable to Reach</fullName>
+        <default>false</default>
+        <label>Unable to Reach</label>
+    </customValue>
+    <customValue>
+        <fullName>Undesirable Booth Location</fullName>
+        <default>false</default>
+        <label>Undesirable Booth Location</label>
+    </customValue>
+    <customValue>
+        <fullName>Undesirable Location(City/Venue)</fullName>
+        <default>false</default>
+        <label>Undesirable Location(City/Venue)</label>
+    </customValue>
+    <customValue>
+        <fullName>Unqualified from BDM</fullName>
+        <default>false</default>
+        <label>Unqualified from BDM</label>
+    </customValue>
+    <customValue>
+        <fullName>Verified Interest – Target for next show</fullName>
+        <default>false</default>
+        <label>Verified Interest – Target for next show</label>
+    </customValue>
+    <customValue>
+        <fullName>Visa denied</fullName>
+        <default>false</default>
+        <label>Visa denied</label>
+    </customValue>
+    <customValue>
+        <fullName>3X</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>3X</label>
+    </customValue>
+    <customValue>
+        <fullName>Lack of ROI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lack of ROI</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Issues</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Medical Issues</label>
+    </customValue>
+    <customValue>
+        <fullName>Acquisition</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Acquisition</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Hardship or Payment Problem</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Financial Hardship or Payment Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>Timing Conflict</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Timing Conflict</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost/Budget</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cost/Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>COVID-19</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COVID-19</label>
+    </customValue>
+    <masterLabel>Objection Code</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
